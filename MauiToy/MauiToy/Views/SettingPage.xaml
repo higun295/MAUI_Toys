@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="MauiToy.Views.SettingPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:MauiToy.Views"
+             Title="SettingPage">
+    <VerticalStackLayout>
+        <Label HorizontalOptions="Center"
+               Text="환경 설정"
+               VerticalOptions="Center" />
+        <Label HorizontalOptions="Center"
+               Text="서버와의 연결 정보를 입력하세요."
+               VerticalOptions="Center" />
+
+
+        <!--<TabbedPage>
+            <views:ConnectToErpPage />
+            <views:ConnectToFtpPage />
+        </TabbedPage>-->
+    </VerticalStackLayout>
+</ContentPage>

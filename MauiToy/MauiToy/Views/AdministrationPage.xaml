@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="MauiToy.Views.AdministrationPage "
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="AdministrationPage">
+    <VerticalStackLayout Margin="10"
+                         Spacing="10">
+        <Label HorizontalOptions="Center"
+               Text="관리자 확인"
+               VerticalOptions="Center" />
+        <Label HorizontalOptions="Center"
+               Text="설정 변경은 관리자만 할 수 있습니다. 관리자 암호를 입력하세요."
+               VerticalOptions="Center" />
+        <Button Clicked="test1"
+                Text="최신 ERP 접속 패스워드 받기" />
+        <Button Clicked="test2"
+                Text="최신 버전의 프로그램 받기" />
+    </VerticalStackLayout>
+</ContentPage>

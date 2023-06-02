@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="MauiToy.Views.ConnectToFtpPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="ConnectToFtpPage">
+    <VerticalStackLayout>
+        <Label HorizontalOptions="Center"
+               Text="Connect To FTP Server!!"
+               VerticalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="MauiToy.Views.LoginPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="LoginPage"
+             Shell.FlyoutBehavior="Disabled">
+
+    <VerticalStackLayout Margin="10"
+                         Spacing="10">
+        <Label FontSize="25"
+               HorizontalOptions="Center"
+               Text="로그인하세요.!!!"
+               VerticalOptions="Center" />
+        <Button Clicked="Button_Clicked_2"
+                Text="로그인" />
+        <Button Clicked="Button_Clicked"
+                Text="설정" />
+        <Button Text="종료" Clicked="Button_Clicked_3" />
+    </VerticalStackLayout>
+</ContentPage>

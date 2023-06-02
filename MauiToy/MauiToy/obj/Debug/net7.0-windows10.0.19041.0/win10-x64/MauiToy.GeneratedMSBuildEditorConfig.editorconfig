@@ -39,3 +39,51 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiToy.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/01_Projects/SELF_PROJECT/MAUI/MauiToy/MauiToy/Views/AdministrationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiToy.Views.AdministrationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AdministrationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AdministrationPage.xaml
+
+[D:/01_Projects/SELF_PROJECT/MAUI/MauiToy/MauiToy/Views/BufferInventoryManagementPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiToy.Views.BufferInventoryManagementPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\BufferInventoryManagementPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\BufferInventoryManagementPage.xaml
+
+[D:/01_Projects/SELF_PROJECT/MAUI/MauiToy/MauiToy/Views/ConnectToErpPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiToy.Views.ConnectToErpPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ConnectToErpPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ConnectToErpPage.xaml
+
+[D:/01_Projects/SELF_PROJECT/MAUI/MauiToy/MauiToy/Views/ConnectToFtpPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiToy.Views.ConnectToFtpPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ConnectToFtpPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ConnectToFtpPage.xaml
+
+[D:/01_Projects/SELF_PROJECT/MAUI/MauiToy/MauiToy/Views/ExportPackagingManagementPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiToy.Views.ExportPackagingManagementPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ExportPackagingManagementPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ExportPackagingManagementPage.xaml
+
+[D:/01_Projects/SELF_PROJECT/MAUI/MauiToy/MauiToy/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiToy.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
+
+[D:/01_Projects/SELF_PROJECT/MAUI/MauiToy/MauiToy/Views/PrinterSettingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiToy.Views.PrinterSettingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PrinterSettingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PrinterSettingPage.xaml
+
+[D:/01_Projects/SELF_PROJECT/MAUI/MauiToy/MauiToy/Views/SettingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiToy.Views.SettingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SettingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SettingPage.xaml
