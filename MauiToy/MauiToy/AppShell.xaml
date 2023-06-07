@@ -11,6 +11,15 @@
                   FlyoutItemIsVisible="True"
                   Route="LoginPage" />
 
+    <!--<FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+            <Tab Title="관리자 확인">
+                <ShellContent Title="ERP 접속"
+                              ContentTemplate="{DataTemplate views:ConnectToErpPage}" />
+                <ShellContent Title="FTP 접속"
+                              ContentTemplate="{DataTemplate views:ConnectToFtpPage}" />
+            </Tab>
+        </FlyoutItem>-->
+
     <ShellContent Title="메인화면"
                   ContentTemplate="{DataTemplate local:MainPage}"
                   FlyoutItemIsVisible="True"
