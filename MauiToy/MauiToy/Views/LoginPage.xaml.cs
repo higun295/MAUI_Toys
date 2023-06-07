@@ -7,9 +7,9 @@ public partial class LoginPage : ContentPage
         InitializeComponent();
     }
 
-    private async void Button_Clicked(object sender, EventArgs e)
+    private async void btn_Setting_Clicked(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync(nameof(AdministrationPage));
+        await Shell.Current.GoToAsync("//LoginPage/AdministrationPage");
     }
 
     private void Button_Clicked_1(object sender, EventArgs e)

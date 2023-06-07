@@ -9,12 +9,17 @@
                          Spacing="10">
         <Label FontSize="25"
                HorizontalOptions="Center"
-               Text="로그인하세요.!!!"
+               Text="수출 포장 관리"
+               VerticalOptions="Center" />
+        <Label FontSize="15"
+               HorizontalOptions="Center"
+               Text="작업자 로그인 정보를 입력하세요."
                VerticalOptions="Center" />
         <Button Clicked="Button_Clicked_2"
                 Text="로그인" />
-        <Button Clicked="Button_Clicked"
+        <Button Clicked="btn_Setting_Clicked"
                 Text="설정" />
-        <Button Text="종료" Clicked="Button_Clicked_3" />
+        <Button Clicked="Button_Clicked_3"
+                Text="종료" />
     </VerticalStackLayout>
 </ContentPage>
