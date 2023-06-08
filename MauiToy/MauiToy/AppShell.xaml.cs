@@ -12,7 +12,9 @@ public partial class AppShell : Shell
 
     private void RegisterRoute()
     {
-        //Routing.RegisterRoute(nameof(AdministrationPage), typeof(AdministrationPage));
+        Routing.RegisterRoute(nameof(AdministrationPage), typeof(AdministrationPage));
+        Routing.RegisterRoute(nameof(MainPage), typeof(MainPage));
+        Routing.RegisterRoute(nameof(ExportPackagingManagementPage), typeof(ExportPackagingManagementPage));
 
         //Routing.RegisterRoute("AdministrationPage", typeof(AdministrationPage));
         //Routing.RegisterRoute("SettingPage", typeof(SettingPage));

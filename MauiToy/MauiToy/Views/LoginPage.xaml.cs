@@ -9,7 +9,7 @@ public partial class LoginPage : ContentPage
 
     private async void btn_Setting_Clicked(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync("//LoginPage/AdministrationPage");
+        await Shell.Current.GoToAsync($"//{nameof(LoginPage)}/{nameof(AdministrationPage)}");
     }
 
     private void Button_Clicked_1(object sender, EventArgs e)
@@ -17,7 +17,7 @@ public partial class LoginPage : ContentPage
 
     }
 
-    private async void Button_Clicked_2(object sender, EventArgs e)
+    private async void btn_Login_Clicked(object sender, EventArgs e)
     {
         await Shell.Current.GoToAsync($"//{nameof(MainPage)}");
     }
