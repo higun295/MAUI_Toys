@@ -217,7 +217,6 @@ D:\01_Projects\SELF_PROJECT\MAUI\COMAVLER_ERP\COMAVLER_ERP\bin\Debug\net7.0-wind
 D:\01_Projects\SELF_PROJECT\MAUI\COMAVLER_ERP\COMAVLER_ERP\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostfxr.dll
 D:\01_Projects\SELF_PROJECT\MAUI\COMAVLER_ERP\COMAVLER_ERP\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostpolicy.dll
 D:\01_Projects\SELF_PROJECT\MAUI\COMAVLER_ERP\COMAVLER_ERP\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
-D:\01_Projects\SELF_PROJECT\MAUI\COMAVLER_ERP\COMAVLER_ERP\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.423.11508.dll
 D:\01_Projects\SELF_PROJECT\MAUI\COMAVLER_ERP\COMAVLER_ERP\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 D:\01_Projects\SELF_PROJECT\MAUI\COMAVLER_ERP\COMAVLER_ERP\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscorrc.dll
 D:\01_Projects\SELF_PROJECT\MAUI\COMAVLER_ERP\COMAVLER_ERP\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\msquic.dll
@@ -322,3 +321,4 @@ D:\01_Projects\SELF_PROJECT\MAUI\COMAVLER_ERP\COMAVLER_ERP\obj\Debug\net7.0-wind
 D:\01_Projects\SELF_PROJECT\MAUI\COMAVLER_ERP\COMAVLER_ERP\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\01_Projects\SELF_PROJECT\MAUI\COMAVLER_ERP\COMAVLER_ERP\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\01_Projects\SELF_PROJECT\MAUI\COMAVLER_ERP\COMAVLER_ERP\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\01_Projects\SELF_PROJECT\MAUI\COMAVLER_ERP\COMAVLER_ERP\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.523.17405.dll

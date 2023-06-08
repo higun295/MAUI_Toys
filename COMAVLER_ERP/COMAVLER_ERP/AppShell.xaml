@@ -12,4 +12,17 @@
     <ShellContent Title="Login"
                   ContentTemplate="{DataTemplate views:LoginPage}"
                   Route="login" />
+
+    <TabBar>
+        <Tab Title="Home">
+            <ShellContent Title="Home"
+                          ContentTemplate="{DataTemplate views:HomePage}"
+                          Route="home" />
+        </Tab>
+        <Tab Title="Settings">
+            <ShellContent Title="Settings"
+                          ContentTemplate="{DataTemplate views:SettingsPage}"
+                          Route="settings" />
+        </Tab>
+    </TabBar>
 </Shell>
