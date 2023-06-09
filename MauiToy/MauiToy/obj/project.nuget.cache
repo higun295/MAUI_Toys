@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "m4/792p7J74Gy/lcNr03daYnD1/uP687V/uYBXRnbNA7So9CcFDflOPkJ7APRYo00XLpj0oXuRl4fTfd0kXcwA==",
+  "dgSpecHash": "BkeQg2nc3RrIe9NHJDG1eewOtU6eH3iOJ+z37A5uiMsnwoyUWa3pZfiiv5J03L30qBNBe/bqwflyIvO9Il0RGw==",
   "success": true,
   "projectFilePath": "D:\\01_Projects\\SELF_PROJECT\\MAUI\\MauiToy\\MauiToy\\MauiToy.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DLIT\\.nuget\\packages\\akgul.maui.datagrid\\2.0.0\\akgul.maui.datagrid.2.0.0.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
@@ -19,6 +20,7 @@
     "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.86\\microsoft.maui.graphics.win2d.winui.desktop.7.0.86.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
+    "C:\\Users\\DLIT\\.nuget\\packages\\system.runtime.interopservices.nfloat.internal\\6.0.1\\system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\xamarin.android.glide.annotations\\4.13.2.2\\xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.13.2.2\\xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",
