@@ -609,6 +609,18 @@ public partial class DataGrid
         set => SetValue(HeaderBackgroundProperty, value);
     }
 
+    //public ScrollBarVisibility HorizontalScrollBarVisibility
+    //{
+    //    get =>(ScrollBarVisibility)GetValue();
+    //    set =>SetValue(, value);
+    //}
+
+    //public ScrollBarVisibility VerticalScrollBarVisibility
+    //{
+    //    get => (ScrollBarVisibility)GetValue();
+    //    set => SetValue(, value);
+    //}
+
     /// <summary>
     /// Border color
     /// Default Value is Black

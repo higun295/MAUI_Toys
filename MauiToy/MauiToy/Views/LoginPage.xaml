@@ -49,31 +49,34 @@
                        Grid.Column="1" />
             </Grid>
         </Frame>
+        <ScrollView HorizontalScrollBarVisibility="Always"
+                    VerticalScrollBarVisibility="Always">
+            <dg:DataGrid x:Name="dataGrid"
+                         HeaderHeight="30"
+                         HeightRequest="300"
+                         ItemsSource="{Binding TestSource, Mode=TwoWay}"
+                         RefreshingEnabled="False"
+                         RowHeight="30">
+                <dg:DataGrid.Columns>
+                    <dg:DataGridColumn Title="Test1"
+                                       PropertyName="Name" />
+                    <dg:DataGridColumn Title="Test2"
+                                       PropertyName="Age" />
+                    <dg:DataGridColumn Title="Test3"
+                                       PropertyName="Address" />
+                    <dg:DataGridColumn Title="Test4"
+                                       PropertyName="Home" />
+                </dg:DataGrid.Columns>
 
-        <dg:DataGrid x:Name="dataGrid"
-                     HeaderHeight="30"
-                     HeightRequest="300"
-                     ItemsSource="{Binding TestSource, Mode=TwoWay}"
-                     RefreshingEnabled="False"
-                     RowHeight="30">
-            <dg:DataGrid.Columns>
-                <dg:DataGridColumn Title="Test1"
-                                   PropertyName="Name" />
-                <dg:DataGridColumn Title="Test2"
-                                   PropertyName="Age" />
-                <dg:DataGridColumn Title="Test3"
-                                   PropertyName="Address" />
-                <dg:DataGridColumn Title="Test4"
-                                   PropertyName="Home" />
-            </dg:DataGrid.Columns>
 
-            <dg:DataGrid.RowsBackgroundColorPalette>
-                <dg:PaletteCollection>
-                    <Color>#F2F2F2</Color>
-                    <Color>#FFFFFF</Color>
-                </dg:PaletteCollection>
-            </dg:DataGrid.RowsBackgroundColorPalette>
-        </dg:DataGrid>
+                <dg:DataGrid.RowsBackgroundColorPalette>
+                    <dg:PaletteCollection>
+                        <Color>#F2F2F2</Color>
+                        <Color>#FFFFFF</Color>
+                    </dg:PaletteCollection>
+                </dg:DataGrid.RowsBackgroundColorPalette>
+            </dg:DataGrid>
+        </ScrollView>
 
         <Button Clicked="btn_Login_Clicked"
                 Text="로그인" />

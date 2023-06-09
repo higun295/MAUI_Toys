@@ -1,71 +1,133 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<ContentPage x:Class="Maui.DataGrid.Sample.MainPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:conv="clr-namespace:Maui.DataGrid.Sample.Converters"
              xmlns:dg="clr-namespace:Maui.DataGrid;assembly=Maui.DataGrid"
              xmlns:vm="clr-namespace:Maui.DataGrid.Sample.ViewModels"
-             xmlns:conv="clr-namespace:Maui.DataGrid.Sample.Converters"
-             x:DataType="vm:MainViewModel"
-             x:Class="Maui.DataGrid.Sample.MainPage">
-    <Grid RowDefinitions="Auto,*" BackgroundColor="White">
+             x:DataType="vm:MainViewModel">
+    <Grid BackgroundColor="White"
+          RowDefinitions="Auto,*">
 
-        <FlexLayout BackgroundColor="Black" Wrap="Wrap">
-            <HorizontalStackLayout HeightRequest="50" Margin="0,0,15,0">
+        <FlexLayout BackgroundColor="Black"
+                    Wrap="Wrap">
+            <HorizontalStackLayout Margin="0,0,15,0"
+                                   HeightRequest="50">
                 <CheckBox IsChecked="{Binding HeaderBordersVisible}" />
-                <Label Text="Header Borders Visible?" TextColor="White" Margin="0,0,5,0" VerticalOptions="Center" />
+                <Label Margin="0,0,5,0"
+                       Text="Header Borders Visible?"
+                       TextColor="White"
+                       VerticalOptions="Center" />
             </HorizontalStackLayout>
-            <HorizontalStackLayout HeightRequest="50" Margin="0,0,15,0">
-                <CheckBox IsChecked="{Binding TeamColumnVisible}"  />
-                <Label Text="Team Column" TextColor="White" Margin="0,0,5,0" VerticalOptions="Center" />
+            <HorizontalStackLayout Margin="0,0,15,0"
+                                   HeightRequest="50">
+                <CheckBox IsChecked="{Binding TeamColumnVisible}" />
+                <Label Margin="0,0,5,0"
+                       Text="Team Column"
+                       TextColor="White"
+                       VerticalOptions="Center" />
             </HorizontalStackLayout>
-            <HorizontalStackLayout HeightRequest="50" Margin="0,0,15,0">
+            <HorizontalStackLayout Margin="0,0,15,0"
+                                   HeightRequest="50">
                 <CheckBox IsChecked="{Binding WonColumnVisible}" />
-                <Label Text="Won Column" TextColor="White" Margin="0,0,5,0" VerticalOptions="Center" />
+                <Label Margin="0,0,5,0"
+                       Text="Won Column"
+                       TextColor="White"
+                       VerticalOptions="Center" />
             </HorizontalStackLayout>
-            <HorizontalStackLayout HeightRequest="50" Margin="0,0,15,0">
+            <HorizontalStackLayout Margin="0,0,15,0"
+                                   HeightRequest="50">
                 <CheckBox IsChecked="{Binding PaginationEnabled}" />
-                <Label Text="Pagination Enabled?" TextColor="White" Margin="0,0,5,0" VerticalOptions="Center" />
+                <Label Margin="0,0,5,0"
+                       Text="Pagination Enabled?"
+                       TextColor="White"
+                       VerticalOptions="Center" />
             </HorizontalStackLayout>
-            <HorizontalStackLayout HeightRequest="50" Margin="0,0,15,0">
-                <Stepper Minimum="0" Maximum="100" Increment="10" Value="{Binding TeamColumnWidth}" />
-                <Label Text="Team Col Width" TextColor="White" Margin="0,0,5,0" VerticalOptions="Center" />
+            <HorizontalStackLayout Margin="0,0,15,0"
+                                   HeightRequest="50">
+                <Stepper Increment="10"
+                         Maximum="100"
+                         Minimum="0"
+                         Value="{Binding TeamColumnWidth}" />
+                <Label Margin="0,0,5,0"
+                       Text="Team Col Width"
+                       TextColor="White"
+                       VerticalOptions="Center" />
             </HorizontalStackLayout>
-            <Button x:Name="_addColumnButton1" Text="Add Column" />
+            <Button x:Name="_addColumnButton1"
+                    Text="Add Column" />
         </FlexLayout>
 
-        <dg:DataGrid Grid.Row="1" ItemsSource="{Binding Teams}" SelectionEnabled="True" SelectedItem="{Binding SelectedTeam}"
-                     RowHeight="70" HeaderHeight="50" BorderColor="{StaticResource GridBorderColor}"
-                     HeaderBackground="{StaticResource GridHeaderBgColor}" HeaderBordersVisible="{Binding HeaderBordersVisible}"
-                     PullToRefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}" PaginationEnabled="{Binding PaginationEnabled}" PageSize="5"
-                     ActiveRowColor="{StaticResource ActiveRowColor}" x:Name="_dataGrid1">
+        <dg:DataGrid x:Name="_dataGrid1"
+                     Grid.Row="1"
+                     ActiveRowColor="{StaticResource ActiveRowColor}"
+                     BorderColor="{StaticResource GridBorderColor}"
+                     HeaderBackground="{StaticResource GridHeaderBgColor}"
+                     HeaderBordersVisible="{Binding HeaderBordersVisible}"
+                     HeaderHeight="50"
+                     IsRefreshing="{Binding IsRefreshing}"
+                     ItemsSource="{Binding Teams}"
+                     PageSize="5"
+                     PaginationEnabled="{Binding PaginationEnabled}"
+                     PullToRefreshCommand="{Binding RefreshCommand}"
+                     RowHeight="70"
+                     SelectedItem="{Binding SelectedTeam}"
+                     SelectionEnabled="True">
             <dg:DataGrid.Columns>
-                <dg:DataGridColumn Title="Logo" PropertyName="Logo" SortingEnabled="False">
+                <dg:DataGridColumn Title="Logo"
+                                   PropertyName="Logo"
+                                   SortingEnabled="False">
                     <dg:DataGridColumn.CellTemplate>
                         <DataTemplate>
-                            <Image Source="{Binding}" HorizontalOptions="Center" VerticalOptions="Center"
-                                   Aspect="AspectFit" HeightRequest="60" />
+                            <Image Aspect="AspectFit"
+                                   HeightRequest="60"
+                                   HorizontalOptions="Center"
+                                   Source="{Binding}"
+                                   VerticalOptions="Center" />
                         </DataTemplate>
                     </dg:DataGridColumn.CellTemplate>
                 </dg:DataGridColumn>
-                <dg:DataGridColumn Title="Team" PropertyName="Name" IsVisible="{Binding TeamColumnVisible}" Width="{Binding TeamColumnWidth}" />
-                <dg:DataGridColumn Title="Won" PropertyName="Won" Width="0.5*" IsVisible="{Binding WonColumnVisible}" />
-                <dg:DataGridColumn Title="Lost" PropertyName="Lost" Width="0.5*" />
+                <dg:DataGridColumn Title="Team"
+                                   Width="{Binding TeamColumnWidth}"
+                                   IsVisible="{Binding TeamColumnVisible}"
+                                   PropertyName="Name" />
+                <dg:DataGridColumn Title="Won"
+                                   Width="0.5*"
+                                   IsVisible="{Binding WonColumnVisible}"
+                                   PropertyName="Won" />
+                <dg:DataGridColumn Title="Lost"
+                                   Width="0.5*"
+                                   PropertyName="Lost" />
                 <dg:DataGridColumn PropertyName="Home">
                     <dg:DataGridColumn.FormattedTitle>
                         <FormattedString>
-                            <Span Text="Home" TextColor="Black" FontSize="13" FontAttributes="Bold" />
-                            <Span Text=" (won-lost)" TextColor="#333333" FontSize="11" />
+                            <Span FontAttributes="Bold"
+                                  FontSize="13"
+                                  Text="Home"
+                                  TextColor="Black" />
+                            <Span FontSize="11"
+                                  Text=" (won-lost)"
+                                  TextColor="#333333" />
                         </FormattedString>
                     </dg:DataGridColumn.FormattedTitle>
                 </dg:DataGridColumn>
-                <dg:DataGridColumn Title="Win %" PropertyName="Percentage" Width="0.75*" StringFormat="{}{0:0.00}" />
-                <dg:DataGridColumn Title="Streak" PropertyName="Streak" Width="0.75*">
+                <dg:DataGridColumn Title="Win %"
+                                   Width="0.75*"
+                                   PropertyName="Percentage"
+                                   StringFormat="{}{0:0.00}" />
+                <dg:DataGridColumn Title="Streak"
+                                   Width="0.75*"
+                                   PropertyName="Streak">
                     <dg:DataGridColumn.CellTemplate>
                         <DataTemplate>
-                            <ContentView HorizontalOptions="Fill" VerticalOptions="Fill"
-                                         BackgroundColor="{Binding Converter={StaticResource StreakToColorConverter}}">
-                                <Label Text="{Binding}" HorizontalOptions="Center" VerticalOptions="Center"
-                                       TextColor="Black" />
+                            <ContentView BackgroundColor="{Binding Converter={StaticResource StreakToColorConverter}}"
+                                         HorizontalOptions="Fill"
+                                         VerticalOptions="Fill">
+                                <Label HorizontalOptions="Center"
+                                       Text="{Binding}"
+                                       TextColor="Black"
+                                       VerticalOptions="Center" />
                             </ContentView>
                         </DataTemplate>
                     </dg:DataGridColumn.CellTemplate>

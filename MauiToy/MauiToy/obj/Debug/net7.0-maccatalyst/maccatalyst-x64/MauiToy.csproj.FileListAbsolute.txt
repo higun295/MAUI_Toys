@@ -257,3 +257,4 @@ D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-maccatalyst\ma
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\MauiToy.pdb
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\MauiToy.genruntimeconfig.cache
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref\MauiToy.dll
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Maui.DataGrid.dll

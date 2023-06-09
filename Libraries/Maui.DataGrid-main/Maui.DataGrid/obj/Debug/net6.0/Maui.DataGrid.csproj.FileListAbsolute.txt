@@ -1,0 +1,13 @@
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Maui.DataGrid-main\Maui.DataGrid\bin\Debug\net6.0\Maui.DataGrid.deps.json
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Maui.DataGrid-main\Maui.DataGrid\bin\Debug\net6.0\Maui.DataGrid.dll
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Maui.DataGrid-main\Maui.DataGrid\bin\Debug\net6.0\Maui.DataGrid.pdb
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Maui.DataGrid-main\Maui.DataGrid\obj\Debug\net6.0\Maui.DataGrid.csproj.AssemblyReference.cache
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Maui.DataGrid-main\Maui.DataGrid\obj\Debug\net6.0\Maui.DataGrid.GeneratedMSBuildEditorConfig.editorconfig
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Maui.DataGrid-main\Maui.DataGrid\obj\Debug\net6.0\Maui.DataGrid.AssemblyInfoInputs.cache
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Maui.DataGrid-main\Maui.DataGrid\obj\Debug\net6.0\Maui.DataGrid.AssemblyInfo.cs
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Maui.DataGrid-main\Maui.DataGrid\obj\Debug\net6.0\Maui.DataGrid.csproj.CoreCompileInputs.cache
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Maui.DataGrid-main\Maui.DataGrid\obj\Debug\net6.0\XamlC.stamp
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Maui.DataGrid-main\Maui.DataGrid\obj\Debug\net6.0\Maui.DataGrid.dll
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Maui.DataGrid-main\Maui.DataGrid\obj\Debug\net6.0\refint\Maui.DataGrid.dll
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Maui.DataGrid-main\Maui.DataGrid\obj\Debug\net6.0\Maui.DataGrid.pdb
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Maui.DataGrid-main\Maui.DataGrid\obj\Debug\net6.0\ref\Maui.DataGrid.dll
