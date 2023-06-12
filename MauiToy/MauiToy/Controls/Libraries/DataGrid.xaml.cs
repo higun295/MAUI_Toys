@@ -400,10 +400,10 @@ public partial class DataGrid
             });
 
     public static readonly BindableProperty TableHeightProperty =
-        BindableProperty.Create(nameof(TableHeight), typeof(double), typeof(DataGrid), 40,
+        BindableProperty.Create(nameof(TableHeight), typeof(int), typeof(DataGrid), 40,
             propertyChanged: (b, o, n) =>
             {
-                if (o != n && n is double height)
+                if (o != n && n is int height)
                 {
                     var self = (DataGrid)b;
                     self._collectionView.HeightRequest = height;
@@ -757,9 +757,9 @@ public partial class DataGrid
         set => SetValue(HeaderHeightProperty, value);
     }
 
-    public double TableHeight
+    public int TableHeight
     {
-        get => (double)GetValue(TableHeightProperty);
+        get => (int)GetValue(TableHeightProperty);
         set => SetValue(TableHeightProperty, value);
     }
 

@@ -74,7 +74,7 @@
                               HeaderHeight="30"
                               ItemsSource="{Binding TestSource, Mode=TwoWay}"
                               RowHeight="30"
-                              TableHeight="150">
+                              TableHeight="200">
             <libControls:DataGrid.Columns>
                 <libControls:DataGridColumn Title="Test1"
                                             Width="100"
@@ -90,10 +90,9 @@
                                             PropertyName="Home" />
             </libControls:DataGrid.Columns>
 
-
             <libControls:DataGrid.RowsBackgroundColorPalette>
                 <libControls:PaletteCollection>
-                    <Color>#F2F2F2</Color>
+                    <Color>#F3F3F3</Color>
                     <Color>#FFFFFF</Color>
                 </libControls:PaletteCollection>
             </libControls:DataGrid.RowsBackgroundColorPalette>

@@ -3,7 +3,7 @@ namespace MauiToy.Controls.Libraries;
 using MauiToy.Utils.Libraries;
 using Microsoft.Maui.Controls;
 
-internal sealed class DataGridRow : Grid
+internal sealed class DataGridRow : View
 {
     #region Fields
 
@@ -140,9 +140,7 @@ internal sealed class DataGridRow : Grid
             return;
         }
 
-        _bgColor = DataGrid?.SelectionEnabled == true && _hasSelected
-                ? DataGrid.ActiveRowColor
-                : DataGrid?.RowsBackgroundColorPalette.GetColor(rowIndex, BindingContext);
+        _bgColor = DataGrid?.SelectionEnabled == true && _hasSelected ? DataGrid.ActiveRowColor : DataGrid?.RowsBackgroundColorPalette.GetColor(rowIndex, BindingContext);
         _textColor = DataGrid?.RowsTextColorPalette.GetColor(rowIndex, BindingContext);
 
         ChangeColor(_bgColor, _textColor);

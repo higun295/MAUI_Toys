@@ -44,7 +44,6 @@
 
             <CollectionView x:Name="_collectionView"
                             Grid.Row="1"
-                            BackgroundColor="{Binding BorderColor, Source={Reference self}, Mode=TwoWay}"
                             HeightRequest="{Binding TableHeight, Source={Reference self}, Mode=TwoWay}"
                             ItemSizingStrategy="{Binding ItemSizingStrategy, Source={Reference self}, Mode=TwoWay}"
                             SelectedItem="{Binding SelectedItem, Source={Reference self}, Mode=TwoWay}"
