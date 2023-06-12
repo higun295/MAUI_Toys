@@ -4,5 +4,323 @@
         <name>MauiToy</name>
     </assembly>
     <members>
+        <member name="T:MauiToy.Controls.Libraries.DataGrid">
+            <summary>
+            DataGrid component for Maui
+            </summary>
+        </member>
+        <member name="M:MauiToy.Controls.Libraries.DataGrid.ScrollTo(System.Object,Microsoft.Maui.Controls.ScrollToPosition,System.Boolean)">
+            <summary>
+            Scrolls to the row
+            </summary>
+            <param name="item">Item to scroll</param>
+            <param name="position">Position of the row in screen</param>
+            <param name="animated">animated</param>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.ActiveRowColor">
+            <summary>
+            Selected Row color
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.HeaderBackground">
+            <summary>
+            BackgroundColor of the column header
+            Default value is White
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.BorderColor">
+            <summary>
+            Border color
+            Default Value is Black
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.ItemSizingStrategy">
+            <summary>
+            ItemSizingStrategy
+            Default Value is MeasureFirstItem, except on Android
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.RowsBackgroundColorPalette">
+            <summary>
+            Background color of the rows. It repeats colors consecutively for rows.
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.RowsTextColorPalette">
+            <summary>
+            Text color of the rows. It repeats colors consecutively for rows.
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.ItemsSource">
+            <summary>
+            ItemsSource of the DataGrid
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.Columns">
+            <summary>
+            Columns
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.FontSize">
+            <summary>
+            Font size of the cells.
+            It does not sets header font size. Use <c>HeaderLabelStyle</c> to set header font size.
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.FontFamily">
+            <summary>
+            Sets the font family.
+            It does not sets header font family. Use <c>HeaderLabelStyle</c> to set header font size.
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.PageSize">
+            <summary>
+            Gets or sets the page size
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.RowHeight">
+            <summary>
+            Sets the row height
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.FooterHeight">
+            <summary>
+            Gets or sets footer height
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.HeaderHeight">
+            <summary>
+            Sets header height
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.IsSortable">
+            <summary>
+            Gets or sets if the grid is sortable. Default value is true.
+            Sortable columns must implement <see cref="T:System.IComparable"/>
+            If you want to enable or disable sorting for specific column please use <c>SortingEnabled</c> property
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.PageNumber">
+            <summary>
+            Gets or sets the page number. Default value is 1
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.PaginationEnabled">
+            <summary>
+            Enables pagination in dataGrid. Default value is False
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.SelectionEnabled">
+            <summary>
+            Enables selection in dataGrid. Default value is True
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.SelectedItem">
+            <summary>
+            Selected item
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.IsRefreshing">
+            <summary>
+            Displays an ActivityIndicator when is refreshing
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.BorderThickness">
+            <summary>
+            Border thickness for header &amp; each cell
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.HeaderBordersVisible">
+            <summary>
+            Determines to show the borders of header cells.
+            Default value is <c>true</c>
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.SortedColumnIndex">
+            <summary>
+            Column index and sorting order for the DataGrid
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.HeaderLabelStyle">
+            <summary>
+            Style of the header label.
+            Style's <c>TargetType</c> must be Label.
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.SortIcon">
+            <summary>
+            Sort icon
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.SortIconStyle">
+            <summary>
+            Style of the sort icon
+            Style's <c>TargetType</c> must be Polygon.
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.NoDataView">
+            <summary>
+            View to show when there is no data to display
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGrid.PageCount">
+            <summary>
+            Gets the page count
+            </summary>
+        </member>
+        <member name="M:MauiToy.Controls.Libraries.DataGrid.OnParentSet">
+            <inheritdoc/>
+        </member>
+        <member name="M:MauiToy.Controls.Libraries.DataGrid.OnBindingContextChanged">
+            <inheritdoc/>
+        </member>
+        <member name="T:MauiToy.Controls.Libraries.DataGridColumn">
+            <summary>
+            Specifies each column of the DataGrid.
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGridColumn.Width">
+            <summary>
+            Width of the column. Like Grid, you can use <c>Absolute, star, Auto</c> as unit.
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGridColumn.Title">
+            <summary>
+            Column title
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGridColumn.FormattedTitle">
+            <summary>
+            Formatted title for column
+            <example>
+            <code>
+             &lt;DataGridColumn.FormattedTitle &gt;
+                &lt;FormattedString &gt;
+                  &lt;Span Text = "Home" TextColor="Black" FontSize="13" FontAttributes="Bold" / &gt;
+                  &lt;Span Text = " (won-lost)" TextColor="#333333" FontSize="11" / &gt;
+                &lt;/FormattedString &gt;
+             &lt;/DataGridColumn.FormattedTitle &gt;
+            </code>
+            </example>
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGridColumn.PropertyName">
+            <summary>
+            Property name to bind in the object
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGridColumn.IsVisible">
+            <summary>
+            Is this column visible?
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGridColumn.StringFormat">
+            <summary>
+            String format for the cell
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGridColumn.CellTemplate">
+            <summary>
+            Cell template. Default value is <c>Label</c> with binding <c>PropertyName</c>
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGridColumn.LineBreakMode">
+            <summary>
+            LineBreakModeProperty for the text. WordWrap by default.
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGridColumn.HorizontalContentAlignment">
+            <summary>
+            Horizontal alignment of the cell content
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGridColumn.VerticalContentAlignment">
+            <summary>
+            Vertical alignment of the cell content
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGridColumn.SortingEnabled">
+            <summary>
+            Defines if the column is sortable. Default is true
+            Sortable columns must implement <see cref="T:System.IComparable"/>
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.DataGridColumn.HeaderLabelStyle">
+            <summary>
+            Label Style of the header. <c>TargetType</c> must be Label.
+            </summary>
+        </member>
+        <member name="M:MauiToy.Controls.Libraries.DataGridColumn.IsSortable(MauiToy.Controls.Libraries.DataGrid)">
+            <summary>
+            Determines via reflection if the column's data type is sortable.
+            If you want to disable sorting for specific column please use <c>SortingEnabled</c> property
+            </summary>
+            <param name="dataGrid"></param>
+        </member>
+        <member name="M:MauiToy.Controls.Libraries.DataGridRow.OnBindingContextChanged">
+            <inheritdoc/>
+        </member>
+        <member name="M:MauiToy.Controls.Libraries.DataGridRow.OnParentSet">
+            <inheritdoc/>
+        </member>
+        <member name="T:MauiToy.Controls.Libraries.IColorProvider">
+            <summary>
+            Color Provider interface for Background and Text color of each row.
+            </summary>
+        </member>
+        <member name="M:MauiToy.Controls.Libraries.IColorProvider.GetColor(System.Int32,System.Object)">
+            <summary>
+            Determines the Color for the row
+            </summary>
+            <param name="rowIndex">Index of the row based on DataSource</param>
+            <param name="item">Item on the index</param>
+            <returns>Color for the row</returns>
+        </member>
+        <member name="T:MauiToy.Controls.Libraries.PaletteCollection">
+            <summary>
+            Creates PaletteCollection for row's visual. It repeats colors consecutively for rows.
+            </summary>
+        </member>
+        <member name="M:MauiToy.Controls.Libraries.PaletteCollection.GetColor(System.Int32,System.Object)">
+            <summary>
+            Determines the <c>Color</c> for the row
+            </summary>
+            <param name="rowIndex">Index of the row based on DataSource</param>
+            <param name="item">Item on the index</param>
+            <returns>Color for the row</returns>
+        </member>
+        <member name="T:MauiToy.Controls.Libraries.SortData">
+            <summary>
+            Creates SortData for DataGrid
+            </summary>
+        </member>
+        <member name="M:MauiToy.Controls.Libraries.SortData.Equals(System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.SortData.Order">
+            <summary>
+            Sorting order for the column
+            </summary>
+        </member>
+        <member name="P:MauiToy.Controls.Libraries.SortData.Index">
+            <summary>
+            Column Index to sort
+            </summary>
+        </member>
+        <member name="M:MauiToy.Controls.Libraries.SortData.GetHashCode">
+            <inheritdoc/>
+        </member>
+        <member name="T:MauiToy.Controls.Libraries.SortDataTypeConverter">
+            <summary>
+            Converts string to <c>SortingOrder</c> enum.
+            </summary>
+        </member>
+        <member name="M:MauiToy.Controls.Libraries.SortDataTypeConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="T:MauiToy.Controls.Libraries.SortingOrder">
+            <summary>
+            Represents the sorting orders for DataGrid
+            </summary>
+        </member>
     </members>
 </doc>

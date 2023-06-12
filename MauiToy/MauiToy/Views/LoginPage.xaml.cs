@@ -73,6 +73,6 @@ public partial class LoginPage : ContentPage
 
     private void btn_Apply_Clicked(object sender, EventArgs e)
     {
-        //dataGrid.ItemsSource = TestSource;
+        dataGrid.ItemsSource = TestSource;
     }
 }

@@ -4,6 +4,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:controls="clr-namespace:MauiToy.Controls"
              xmlns:dg="clr-namespace:Maui.DataGrid;assembly=Maui.DataGrid"
+             xmlns:libControls="clr-namespace:MauiToy.Controls.Libraries"
              Title="LoginPage"
              Shell.FlyoutBehavior="Disabled">
 
@@ -51,59 +52,34 @@
                 </Grid>
             </Frame>
 
-            <ScrollView Margin="20"
-                        HeightRequest="300"
-                        HorizontalOptions="FillAndExpand"
-                        Orientation="Horizontal">
-                <Grid WidthRequest="500">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="*" />
-                        <RowDefinition Height="2*" />
-                    </Grid.RowDefinitions>
-                    <Label Grid.Row="0"
-                           BackgroundColor="Green"
-                           Text="여기는 헤더입니다." />
-                    <ScrollView Grid.Row="1"
-                                HeightRequest="200"
-                                Orientation="Vertical"
-                                VerticalOptions="FillAndExpand">
-                        <StackLayout HeightRequest="300"
-                                     Orientation="Vertical">
-                            <Label HeightRequest="100"
-                                   Text="여기는 테이블입니다." />
-                            <Label HeightRequest="100"
-                                   Text="여기는 테이블입니다." />
-                            <Label HeightRequest="100"
-                                   Text="여기는 테이블입니다." />
-                        </StackLayout>
-                    </ScrollView>
-                </Grid>
-                <!--<dg:DataGrid x:Name="dataGrid"
-                         HeaderHeight="30"
-                         HeightRequest="300"
-                         ItemsSource="{Binding TestSource, Mode=TwoWay}"
-                         RefreshingEnabled="False"
-                         RowHeight="30">
-                <dg:DataGrid.Columns>
-                    <dg:DataGridColumn Title="Test1"
-                                       PropertyName="Name" />
-                    <dg:DataGridColumn Title="Test2"
-                                       PropertyName="Age" />
-                    <dg:DataGridColumn Title="Test3"
-                                       PropertyName="Address" />
-                    <dg:DataGridColumn Title="Test4"
-                                       PropertyName="Home" />
-                </dg:DataGrid.Columns>
+            <libControls:DataGrid x:Name="dataGrid"
+                                  HeaderHeight="30"
+                                  HeightRequest="300"
+                                  ItemsSource="{Binding TestSource, Mode=TwoWay}"
+                                  RowHeight="30">
+                <libControls:DataGrid.Columns>
+                    <libControls:DataGridColumn Title="Test1"
+                                                Width="100"
+                                                PropertyName="Name" />
+                    <libControls:DataGridColumn Title="Test2"
+                                                Width="100"
+                                                PropertyName="Age" />
+                    <libControls:DataGridColumn Title="Test3"
+                                                Width="100"
+                                                PropertyName="Address" />
+                    <libControls:DataGridColumn Title="Test4"
+                                                Width="100"
+                                                PropertyName="Home" />
+                </libControls:DataGrid.Columns>
 
 
-                <dg:DataGrid.RowsBackgroundColorPalette>
-                    <dg:PaletteCollection>
+                <libControls:DataGrid.RowsBackgroundColorPalette>
+                    <libControls:PaletteCollection>
                         <Color>#F2F2F2</Color>
                         <Color>#FFFFFF</Color>
-                    </dg:PaletteCollection>
-                </dg:DataGrid.RowsBackgroundColorPalette>
-            </dg:DataGrid>-->
-            </ScrollView>
+                    </libControls:PaletteCollection>
+                </libControls:DataGrid.RowsBackgroundColorPalette>
+            </libControls:DataGrid>
 
             <Button Clicked="btn_Login_Clicked"
                     Text="로그인" />
