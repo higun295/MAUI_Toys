@@ -75,6 +75,7 @@
                      SelectionEnabled="True">
             <dg:DataGrid.Columns>
                 <dg:DataGridColumn Title="Logo"
+                                   Width="150"
                                    PropertyName="Logo"
                                    SortingEnabled="False">
                     <dg:DataGridColumn.CellTemplate>
@@ -88,17 +89,18 @@
                     </dg:DataGridColumn.CellTemplate>
                 </dg:DataGridColumn>
                 <dg:DataGridColumn Title="Team"
-                                   Width="{Binding TeamColumnWidth}"
+                                   Width="150"
                                    IsVisible="{Binding TeamColumnVisible}"
                                    PropertyName="Name" />
                 <dg:DataGridColumn Title="Won"
-                                   Width="0.5*"
+                                   Width="150"
                                    IsVisible="{Binding WonColumnVisible}"
                                    PropertyName="Won" />
                 <dg:DataGridColumn Title="Lost"
-                                   Width="0.5*"
+                                   Width="150"
                                    PropertyName="Lost" />
-                <dg:DataGridColumn PropertyName="Home">
+                <dg:DataGridColumn Width="150"
+                                   PropertyName="Home">
                     <dg:DataGridColumn.FormattedTitle>
                         <FormattedString>
                             <Span FontAttributes="Bold"
@@ -112,11 +114,11 @@
                     </dg:DataGridColumn.FormattedTitle>
                 </dg:DataGridColumn>
                 <dg:DataGridColumn Title="Win %"
-                                   Width="0.75*"
+                                   Width="100"
                                    PropertyName="Percentage"
                                    StringFormat="{}{0:0.00}" />
                 <dg:DataGridColumn Title="Streak"
-                                   Width="0.75*"
+                                   Width="100"
                                    PropertyName="Streak">
                     <dg:DataGridColumn.CellTemplate>
                         <DataTemplate>

@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Maui.DataGrid-main\Maui.DataGrid.Sample\bin\Debug\net7.0-windows10.0.22621.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-06-09T06:32:01.344</Modified>
+      <Modified>2023-06-12T00:20:54.705</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Maui.DataGrid-main\Maui.DataGrid.Sample\bin\Debug\net7.0-windows10.0.22621.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-06-09T06:32:00.759</Modified>
+      <Modified>2023-06-12T00:20:54.392</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Maui.DataGrid-main\Maui.DataGrid.Sample\bin\Debug\net7.0-windows10.0.22621.0\win10-x64\Maui.DataGrid.Sample.runtimeconfig.json">
       <PackagePath>Maui.DataGrid.Sample.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Maui.DataGrid-main\Maui.DataGrid.Sample\bin\Debug\net7.0-windows10.0.22621.0\win10-x64\Maui.DataGrid.Sample.dll">
       <PackagePath>Maui.DataGrid.Sample.dll</PackagePath>
-      <Modified>2023-06-09T06:31:59.343</Modified>
+      <Modified>2023-06-12T00:20:53.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Maui.DataGrid-main\Maui.DataGrid.Sample\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\apphost.exe">
       <PackagePath>Maui.DataGrid.Sample.exe</PackagePath>
-      <Modified>2023-06-09T06:31:59.402</Modified>
+      <Modified>2023-06-12T00:20:53.087</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DLIT\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.5\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -916,11 +916,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Maui.DataGrid-main\Maui.DataGrid\bin\Debug\net7.0\Maui.DataGrid.dll">
       <PackagePath>Maui.DataGrid.dll</PackagePath>
-      <Modified>2023-06-09T06:31:52.329</Modified>
+      <Modified>2023-06-12T00:20:41.601</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Maui.DataGrid-main\Maui.DataGrid.Sample\obj\Debug\net7.0-windows10.0.22621.0\win10-x64\Maui.DataGrid.Sample.deps.json">
       <PackagePath>Maui.DataGrid.Sample.deps.json</PackagePath>
-      <Modified>2023-06-09T06:32:01.054</Modified>
+      <Modified>2023-06-12T00:20:54.583</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
