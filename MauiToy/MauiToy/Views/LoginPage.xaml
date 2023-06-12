@@ -7,51 +7,78 @@
              Title="LoginPage"
              Shell.FlyoutBehavior="Disabled">
 
-    <VerticalStackLayout Margin="10"
-                         Spacing="10">
-        <Label FontSize="25"
-               HorizontalOptions="Center"
-               Text="수출 포장 관리"
-               VerticalOptions="Center" />
-        <Label FontSize="15"
-               HorizontalOptions="Center"
-               Text="작업자 로그인 정보를 입력하세요."
-               VerticalOptions="Center" />
+    <ScrollView VerticalOptions="FillAndExpand">
+        <VerticalStackLayout Margin="10"
+                             Spacing="10">
+            <Label FontSize="25"
+                   HorizontalOptions="Center"
+                   Text="수출 포장 관리"
+                   VerticalOptions="Center" />
+            <Label FontSize="15"
+                   HorizontalOptions="Center"
+                   Text="작업자 로그인 정보를 입력하세요."
+                   VerticalOptions="Center" />
 
-        <Frame Margin="10"
-               Padding="30,10,30,10"
-               BackgroundColor="LightBlue">
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                </Grid.RowDefinitions>
+            <Frame Margin="10"
+                   Padding="30,10,30,10"
+                   BackgroundColor="LightBlue">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
 
-                <Label Grid.Row="0"
-                       Grid.Column="0"
-                       Margin="0,0,10,0"
-                       HorizontalOptions="End"
-                       Text="User ID : "
-                       VerticalOptions="Center" />
-                <Label Grid.Row="1"
-                       Grid.Column="0"
-                       Margin="0,0,10,0"
-                       HorizontalOptions="End"
-                       Text="Password : "
-                       VerticalOptions="Center" />
-                <Entry Grid.Row="0"
-                       Grid.Column="1" />
-                <Entry Grid.Row="1"
-                       Grid.Column="1" />
-            </Grid>
-        </Frame>
-        <ScrollView HorizontalScrollBarVisibility="Always"
-                    VerticalScrollBarVisibility="Always">
-            <dg:DataGrid x:Name="dataGrid"
+                    <Label Grid.Row="0"
+                           Grid.Column="0"
+                           Margin="0,0,10,0"
+                           HorizontalOptions="End"
+                           Text="User ID : "
+                           VerticalOptions="Center" />
+                    <Label Grid.Row="1"
+                           Grid.Column="0"
+                           Margin="0,0,10,0"
+                           HorizontalOptions="End"
+                           Text="Password : "
+                           VerticalOptions="Center" />
+                    <Entry Grid.Row="0"
+                           Grid.Column="1" />
+                    <Entry Grid.Row="1"
+                           Grid.Column="1" />
+                </Grid>
+            </Frame>
+
+            <ScrollView Margin="20"
+                        HeightRequest="300"
+                        HorizontalOptions="FillAndExpand"
+                        Orientation="Horizontal">
+                <Grid WidthRequest="500">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="2*" />
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0"
+                           BackgroundColor="Green"
+                           Text="여기는 헤더입니다." />
+                    <ScrollView Grid.Row="1"
+                                HeightRequest="200"
+                                Orientation="Vertical"
+                                VerticalOptions="FillAndExpand">
+                        <StackLayout HeightRequest="300"
+                                     Orientation="Vertical">
+                            <Label HeightRequest="100"
+                                   Text="여기는 테이블입니다." />
+                            <Label HeightRequest="100"
+                                   Text="여기는 테이블입니다." />
+                            <Label HeightRequest="100"
+                                   Text="여기는 테이블입니다." />
+                        </StackLayout>
+                    </ScrollView>
+                </Grid>
+                <!--<dg:DataGrid x:Name="dataGrid"
                          HeaderHeight="30"
                          HeightRequest="300"
                          ItemsSource="{Binding TestSource, Mode=TwoWay}"
@@ -75,22 +102,23 @@
                         <Color>#FFFFFF</Color>
                     </dg:PaletteCollection>
                 </dg:DataGrid.RowsBackgroundColorPalette>
-            </dg:DataGrid>
-        </ScrollView>
+            </dg:DataGrid>-->
+            </ScrollView>
 
-        <Button Clicked="btn_Login_Clicked"
-                Text="로그인" />
-        <Button Clicked="btn_Setting_Clicked"
-                Text="설정" />
-        <Button Clicked="Button_Clicked_3"
-                Text="종료" />
-        <HorizontalStackLayout>
-            <Button Clicked="btn_AddRow_Clicked"
-                    Text="행 추가" />
-            <Button Clicked="btn_RemoveRow_Clicked"
-                    Text="행 삭제" />
-            <Button Clicked="btn_Apply_Clicked"
-                    Text="적용" />
-        </HorizontalStackLayout>
-    </VerticalStackLayout>
+            <Button Clicked="btn_Login_Clicked"
+                    Text="로그인" />
+            <Button Clicked="btn_Setting_Clicked"
+                    Text="설정" />
+            <Button Clicked="Button_Clicked_3"
+                    Text="종료" />
+            <HorizontalStackLayout>
+                <Button Clicked="btn_AddRow_Clicked"
+                        Text="행 추가" />
+                <Button Clicked="btn_RemoveRow_Clicked"
+                        Text="행 삭제" />
+                <Button Clicked="btn_Apply_Clicked"
+                        Text="적용" />
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

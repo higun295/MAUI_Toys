@@ -37,32 +37,24 @@
         <Grid x:Name="_headerView"
               Grid.Row="0"
               HeightRequest="{Binding HeaderHeight, Source={Reference self}}" />
-        <RefreshView x:Name="_refreshView"
-                     Grid.Row="1"
-                     Grid.RowSpan="2"
-                     Command="{Binding PullToRefreshCommand, Source={Reference self}}"
-                     IsEnabled="{Binding RefreshingEnabled, Source={Reference self}}"
-                     IsRefreshing="{Binding IsRefreshing, Source={x:Reference self}, Mode=TwoWay}">
-            <!--  Remove ContentView when this pull request is merged https://github.com/dotnet/maui/pull/14302  -->
-            <ContentView>
-                <!--  Set all platforms to use MeasureFirstItem when this bug is resolved https://github.com/dotnet/maui/issues/7562  -->
-                <CollectionView x:Name="_collectionView"
-                                BackgroundColor="{Binding BorderColor, Source={Reference self}, Mode=TwoWay}"
-                                HorizontalScrollBarVisibility="Always"
-                                ItemSizingStrategy="{Binding ItemSizingStrategy, Source={Reference self}, Mode=TwoWay}"
-                                SelectedItem="{Binding SelectedItem, Source={Reference self}, Mode=TwoWay}"
-                                SelectionMode="{Binding SelectionEnabled, Source={Reference self}, Converter={StaticResource boolToSelectionMode}}"
-                                VerticalScrollBarVisibility="Always"
-                                WidthRequest="{Binding WidthRequest, Source={Reference self}, Mode=TwoWay}">
-                    <CollectionView.ItemTemplate>
-                        <DataTemplate>
-                            <local:DataGridRow DataGrid="{Reference self}"
-                                               HeightRequest="{Binding RowHeight, Source={Reference self}, Mode=OneTime}" />
-                        </DataTemplate>
-                    </CollectionView.ItemTemplate>
-                </CollectionView>
-            </ContentView>
-        </RefreshView>
+
+        <!--  Set all platforms to use MeasureFirstItem when this bug is resolved https://github.com/dotnet/maui/issues/7562  -->
+        <CollectionView x:Name="_collectionView"
+                        BackgroundColor="{Binding BorderColor, Source={Reference self}, Mode=TwoWay}"
+                        HorizontalScrollBarVisibility="Always"
+                        ItemSizingStrategy="{Binding ItemSizingStrategy, Source={Reference self}, Mode=TwoWay}"
+                        SelectedItem="{Binding SelectedItem, Source={Reference self}, Mode=TwoWay}"
+                        SelectionMode="{Binding SelectionEnabled, Source={Reference self}, Converter={StaticResource boolToSelectionMode}}"
+                        VerticalScrollBarVisibility="Always"
+                        WidthRequest="{Binding WidthRequest, Source={Reference self}, Mode=TwoWay}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <local:DataGridRow DataGrid="{Reference self}"
+                                       HeightRequest="{Binding RowHeight, Source={Reference self}, Mode=OneTime}" />
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
         <Grid x:Name="_footerView"
               Grid.Row="2"
               BackgroundColor="{Binding HeaderBackground, Source={Reference self}}"

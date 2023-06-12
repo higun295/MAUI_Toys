@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Maui.DataGrid.Sample</name>
+    </assembly>
+    <members>
+        <member name="M:Maui.DataGrid.Sample.Models.Streak.ToString">
+            <inheritdoc/>
+        </member>
+        <member name="M:Maui.DataGrid.Sample.Platforms.Android.MainApplication.CreateMauiApp">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

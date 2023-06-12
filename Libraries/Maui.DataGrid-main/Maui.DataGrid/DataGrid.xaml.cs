@@ -472,36 +472,36 @@ public partial class DataGrid
                 }
             });
 
-    public static readonly BindableProperty RefreshingEnabledProperty =
-    BindableProperty.Create(nameof(RefreshingEnabled), typeof(bool), typeof(DataGrid), true,
-            propertyChanged: (b, o, n) =>
-            {
-                if (o != n && n is bool refreshingEnabled)
-                {
-                    var self = (DataGrid)b;
-                    _ = self.PullToRefreshCommand?.CanExecute(() => refreshingEnabled);
-                }
-            });
+    //public static readonly BindableProperty RefreshingEnabledProperty =
+    //BindableProperty.Create(nameof(RefreshingEnabled), typeof(bool), typeof(DataGrid), true,
+    //        propertyChanged: (b, o, n) =>
+    //        {
+    //            if (o != n && n is bool refreshingEnabled)
+    //            {
+    //                var self = (DataGrid)b;
+    //                _ = self.PullToRefreshCommand?.CanExecute(() => refreshingEnabled);
+    //            }
+    //        });
 
-    public static readonly BindableProperty PullToRefreshCommandProperty =
-        BindableProperty.Create(nameof(PullToRefreshCommand), typeof(ICommand), typeof(DataGrid), null,
-            propertyChanged: (b, o, n) =>
-            {
-                if (o == n || b is not DataGrid self)
-                {
-                    return;
-                }
+    //public static readonly BindableProperty PullToRefreshCommandProperty =
+    //    BindableProperty.Create(nameof(PullToRefreshCommand), typeof(ICommand), typeof(DataGrid), null,
+    //        propertyChanged: (b, o, n) =>
+    //        {
+    //            if (o == n || b is not DataGrid self)
+    //            {
+    //                return;
+    //            }
 
-                if (n == null)
-                {
-                    self._refreshView.Command = null;
-                }
-                else
-                {
-                    self._refreshView.Command = n as ICommand;
-                    _ = self._refreshView.Command?.CanExecute(self.RefreshingEnabled);
-                }
-            });
+    //            if (n == null)
+    //            {
+    //                self._refreshView.Command = null;
+    //            }
+    //            else
+    //            {
+    //                self._refreshView.Command = n as ICommand;
+    //                _ = self._refreshView.Command?.CanExecute(self.RefreshingEnabled);
+    //            }
+    //        });
 
     public static readonly BindableProperty IsRefreshingProperty =
         BindableProperty.Create(nameof(IsRefreshing), typeof(bool), typeof(DataGrid), false, BindingMode.TwoWay);
@@ -797,11 +797,11 @@ public partial class DataGrid
     /// <summary>
     /// Executes the command when refreshing via pull
     /// </summary>
-    public ICommand PullToRefreshCommand
-    {
-        get => (ICommand)GetValue(PullToRefreshCommandProperty);
-        set => SetValue(PullToRefreshCommandProperty, value);
-    }
+    //public ICommand PullToRefreshCommand
+    //{
+    //    get => (ICommand)GetValue(PullToRefreshCommandProperty);
+    //    set => SetValue(PullToRefreshCommandProperty, value);
+    //}
 
     /// <summary>
     /// Displays an ActivityIndicator when is refreshing
@@ -815,11 +815,11 @@ public partial class DataGrid
     /// <summary>
     /// Enables refreshing the DataGrid by a pull down command
     /// </summary>
-    public bool RefreshingEnabled
-    {
-        get => (bool)GetValue(RefreshingEnabledProperty);
-        set => SetValue(RefreshingEnabledProperty, value);
-    }
+    //public bool RefreshingEnabled
+    //{
+    //    get => (bool)GetValue(RefreshingEnabledProperty);
+    //    set => SetValue(RefreshingEnabledProperty, value);
+    //}
 
     /// <summary>
     /// Border thickness for header &amp; each cell
@@ -917,17 +917,17 @@ public partial class DataGrid
             }
         }
 
-        if (RefreshingEnabled)
-        {
-            if (Parent is null)
-            {
-                _refreshView.Refreshing -= OnRefreshing;
-            }
-            else
-            {
-                _refreshView.Refreshing += OnRefreshing;
-            }
-        }
+        //if (RefreshingEnabled)
+        //{
+        //    if (Parent is null)
+        //    {
+        //        _refreshView.Refreshing -= OnRefreshing;
+        //    }
+        //    else
+        //    {
+        //        _refreshView.Refreshing += OnRefreshing;
+        //    }
+        //}
 
         if (Parent is null)
         {
