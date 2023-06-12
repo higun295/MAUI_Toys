@@ -51,11 +51,30 @@
             </Grid>
         </Frame>
 
+        <!--<ScrollView Margin="20"
+                    HeightRequest="200"
+                    HorizontalOptions="FillAndExpand"
+                    Orientation="Horizontal">
+            <Grid WidthRequest="500">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="2*" />
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0"
+                       BackgroundColor="Green"
+                       HeightRequest="50"
+                       Text="여기는 헤더입니다." />
+                <CollectionView x:Name="dataGrid"
+                                Grid.Row="1"
+                                HeightRequest="150" />
+            </Grid>
+        </ScrollView>-->
+
         <libControls:DataGrid x:Name="dataGrid"
                               HeaderHeight="30"
-                              HeightRequest="300"
                               ItemsSource="{Binding TestSource, Mode=TwoWay}"
-                              RowHeight="30">
+                              RowHeight="30"
+                              TableHeight="150">
             <libControls:DataGrid.Columns>
                 <libControls:DataGridColumn Title="Test1"
                                             Width="100"

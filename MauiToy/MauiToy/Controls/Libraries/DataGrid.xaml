@@ -31,56 +31,58 @@
         </ResourceDictionary>
     </ContentView.Resources>
 
-    <Grid CompressedLayout.IsHeadless="True">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="Auto" />
-        </Grid.RowDefinitions>
-        <Grid x:Name="_headerView"
-              Grid.Row="0"
-              HeightRequest="{Binding HeaderHeight, Source={Reference self}}" />
+    <ScrollView HorizontalOptions="FillAndExpand"
+                Orientation="Horizontal">
+        <Grid CompressedLayout.IsHeadless="True">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid x:Name="_headerView"
+                  Grid.Row="0"
+                  HeightRequest="{Binding HeaderHeight, Source={Reference self}}" />
 
-        <CollectionView x:Name="_collectionView"
-                        Grid.Row="1"
-                        Grid.RowSpan="2"
-                        BackgroundColor="{Binding BorderColor, Source={Reference self}, Mode=TwoWay}"
-                        ItemSizingStrategy="{Binding ItemSizingStrategy, Source={Reference self}, Mode=TwoWay}"
-                        SelectedItem="{Binding SelectedItem, Source={Reference self}, Mode=TwoWay}"
-                        SelectionMode="{Binding SelectionEnabled, Source={Reference self}, Converter={StaticResource boolToSelectionMode}}"
-                        WidthRequest="{Binding WidthRequest, Source={Reference self}, Mode=TwoWay}">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <controls:DataGridRow DataGrid="{Reference self}"
-                                          HeightRequest="{Binding RowHeight, Source={Reference self}, Mode=OneTime}" />
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
+            <CollectionView x:Name="_collectionView"
+                            Grid.Row="1"
+                            BackgroundColor="{Binding BorderColor, Source={Reference self}, Mode=TwoWay}"
+                            HeightRequest="{Binding TableHeight, Source={Reference self}, Mode=TwoWay}"
+                            ItemSizingStrategy="{Binding ItemSizingStrategy, Source={Reference self}, Mode=TwoWay}"
+                            SelectedItem="{Binding SelectedItem, Source={Reference self}, Mode=TwoWay}"
+                            SelectionMode="{Binding SelectionEnabled, Source={Reference self}, Converter={StaticResource boolToSelectionMode}}"
+                            WidthRequest="{Binding WidthRequest, Source={Reference self}, Mode=TwoWay}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <controls:DataGridRow DataGrid="{Reference self}"
+                                              HeightRequest="{Binding RowHeight, Source={Reference self}, Mode=OneTime}" />
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
 
-        <Grid x:Name="_footerView"
-              Grid.Row="2"
-              BackgroundColor="{Binding HeaderBackground, Source={Reference self}}"
-              HeightRequest="{Binding FooterHeight, Source={Reference self}}"
-              IsVisible="{Binding PaginationEnabled, Source={Reference self}}">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="Auto" />
-            </Grid.ColumnDefinitions>
-            <HorizontalStackLayout Grid.Column="1"
-                                   VerticalOptions="Center">
-                <Label Margin="0,0,5,0"
-                       Text="Page:"
-                       TextColor="Black"
-                       VerticalTextAlignment="Center" />
-                <Label Text="{Binding PageNumber, Source={Reference self}}"
-                       TextColor="Black"
-                       VerticalTextAlignment="Center" />
-                <Stepper x:Name="_paginationStepper"
-                         Margin="5"
-                         BackgroundColor="Black"
-                         Minimum="1"
-                         Value="{Binding PageNumber, Source={x:Reference self}}" />
-            </HorizontalStackLayout>
+            <Grid x:Name="_footerView"
+                  Grid.Row="2"
+                  BackgroundColor="{Binding HeaderBackground, Source={Reference self}}"
+                  HeightRequest="{Binding FooterHeight, Source={Reference self}}"
+                  IsVisible="{Binding PaginationEnabled, Source={Reference self}}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <HorizontalStackLayout Grid.Column="1"
+                                       VerticalOptions="Center">
+                    <Label Margin="0,0,5,0"
+                           Text="Page:"
+                           TextColor="Black"
+                           VerticalTextAlignment="Center" />
+                    <Label Text="{Binding PageNumber, Source={Reference self}}"
+                           TextColor="Black"
+                           VerticalTextAlignment="Center" />
+                    <Stepper x:Name="_paginationStepper"
+                             Margin="5"
+                             BackgroundColor="Black"
+                             Minimum="1"
+                             Value="{Binding PageNumber, Source={x:Reference self}}" />
+                </HorizontalStackLayout>
+            </Grid>
         </Grid>
-    </Grid>
+    </ScrollView>
 </ContentView>

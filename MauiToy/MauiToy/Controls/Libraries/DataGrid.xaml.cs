@@ -399,6 +399,17 @@ public partial class DataGrid
                 }
             });
 
+    public static readonly BindableProperty TableHeightProperty =
+        BindableProperty.Create(nameof(TableHeight), typeof(double), typeof(DataGrid), 40,
+            propertyChanged: (b, o, n) =>
+            {
+                if (o != n && n is double height)
+                {
+                    var self = (DataGrid)b;
+                    self._collectionView.HeightRequest = height;
+                }
+            });
+
     public static readonly BindableProperty RowHeightProperty =
         BindableProperty.Create(nameof(RowHeight), typeof(int), typeof(DataGrid), 40);
 
@@ -407,6 +418,7 @@ public partial class DataGrid
 
     public static readonly BindableProperty HeaderHeightProperty =
         BindableProperty.Create(nameof(HeaderHeight), typeof(int), typeof(DataGrid), 40);
+
 
     public static readonly BindableProperty IsSortableProperty =
         BindableProperty.Create(nameof(IsSortable), typeof(bool), typeof(DataGrid), true);
@@ -743,6 +755,12 @@ public partial class DataGrid
     {
         get => (int)GetValue(HeaderHeightProperty);
         set => SetValue(HeaderHeightProperty, value);
+    }
+
+    public double TableHeight
+    {
+        get => (double)GetValue(TableHeightProperty);
+        set => SetValue(TableHeightProperty, value);
     }
 
     /// <summary>
