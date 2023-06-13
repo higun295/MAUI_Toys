@@ -419,7 +419,6 @@ public partial class DataGrid
     public static readonly BindableProperty HeaderHeightProperty =
         BindableProperty.Create(nameof(HeaderHeight), typeof(int), typeof(DataGrid), 40);
 
-
     public static readonly BindableProperty IsSortableProperty =
         BindableProperty.Create(nameof(IsSortable), typeof(bool), typeof(DataGrid), true);
 

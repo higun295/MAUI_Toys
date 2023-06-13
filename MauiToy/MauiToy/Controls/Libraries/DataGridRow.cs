@@ -3,7 +3,7 @@ namespace MauiToy.Controls.Libraries;
 using MauiToy.Utils.Libraries;
 using Microsoft.Maui.Controls;
 
-internal sealed class DataGridRow : View
+internal sealed class DataGridRow : Grid
 {
     #region Fields
 
