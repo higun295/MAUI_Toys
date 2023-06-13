@@ -38,6 +38,7 @@
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
+
             <Grid x:Name="_headerView"
                   Grid.Row="0"
                   HeightRequest="{Binding HeaderHeight, Source={Reference self}}" />
