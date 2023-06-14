@@ -80,7 +80,7 @@ internal sealed class DataGridRow : Grid
 
         var borderThickness = DataGrid.BorderThickness;
 
-        Padding = new(borderThickness.Left, borderThickness.Top, borderThickness.Right, 0);
+        Padding = borderThickness;
         ColumnSpacing = borderThickness.HorizontalThickness;
         Margin = new Thickness(0, 0, 0, borderThickness.Bottom); // Row Spacing
     }

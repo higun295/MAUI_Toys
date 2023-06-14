@@ -1,3 +1,4 @@
+using MauiToy.Models;
 using System.Collections.ObjectModel;
 
 namespace MauiToy.Views;
@@ -5,13 +6,13 @@ namespace MauiToy.Views;
 public partial class LoginPage : ContentPage
 {
     public List<Test> TestList = new List<Test>();
-    public ObservableCollection<Test> TestSource = new ObservableCollection<Test>();
+    public ObservableCollection<Test> TestSource { get; set; } = new ObservableCollection<Test>();
 
     public LoginPage()
     {
         InitializeComponent();
-
         BindingContext = this;
+
         for (int i = 0; i < 5; i++)
         {
             TestSource.Add(new Test
@@ -44,13 +45,6 @@ public partial class LoginPage : ContentPage
         App.ExecuteExitProcess(0);
     }
 
-    public class Test
-    {
-        public string Name { get; set; }
-        public int Age { get; set; }
-        public string Address { get; set; }
-        public string Home { get; set; }
-    }
 
     private void btn_AddRow_Clicked(object sender, EventArgs e)
     {
@@ -73,6 +67,5 @@ public partial class LoginPage : ContentPage
 
     private void btn_Apply_Clicked(object sender, EventArgs e)
     {
-        dataGrid.ItemsSource = TestSource;
     }
 }

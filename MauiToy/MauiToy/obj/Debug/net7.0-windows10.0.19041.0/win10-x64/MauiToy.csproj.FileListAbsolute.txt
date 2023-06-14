@@ -322,4 +322,3 @@ D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-windows10.0.19
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
-D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Maui.DataGrid.dll

@@ -3,7 +3,6 @@
              xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:controls="clr-namespace:MauiToy.Controls"
-             xmlns:dg="clr-namespace:Maui.DataGrid;assembly=Maui.DataGrid"
              xmlns:libControls="clr-namespace:MauiToy.Controls.Libraries"
              Title="LoginPage"
              Shell.FlyoutBehavior="Disabled">
@@ -73,7 +72,7 @@
 
             <libControls:DataGrid.RowsBackgroundColorPalette>
                 <libControls:PaletteCollection>
-                    <Color>#F3F3F3</Color>
+                    <Color>#FFFFFF</Color>
                     <Color>#FFFFFF</Color>
                 </libControls:PaletteCollection>
             </libControls:DataGrid.RowsBackgroundColorPalette>

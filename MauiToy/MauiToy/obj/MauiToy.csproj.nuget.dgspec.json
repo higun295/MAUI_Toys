@@ -149,10 +149,6 @@
               "target": "Package",
               "version": "[1.7.0.1, )",
               "autoReferenced": true
-            },
-            "akgul.Maui.DataGrid": {
-              "target": "Package",
-              "version": "[2.0.0, )"
             }
           },
           "imports": [
@@ -216,10 +212,6 @@
               "target": "Package",
               "version": "[7.0.86, )",
               "autoReferenced": true
-            },
-            "akgul.Maui.DataGrid": {
-              "target": "Package",
-              "version": "[2.0.0, )"
             }
           },
           "imports": [
@@ -283,10 +275,6 @@
               "target": "Package",
               "version": "[7.0.86, )",
               "autoReferenced": true
-            },
-            "akgul.Maui.DataGrid": {
-              "target": "Package",
-              "version": "[2.0.0, )"
             }
           },
           "imports": [
@@ -367,10 +355,6 @@
               "target": "Package",
               "version": "[1.2.221209.1, )",
               "autoReferenced": true
-            },
-            "akgul.Maui.DataGrid": {
-              "target": "Package",
-              "version": "[2.0.0, )"
             }
           },
           "imports": [

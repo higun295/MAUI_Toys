@@ -2,19 +2,6 @@
   "version": 3,
   "targets": {
     "net7.0-android33.0": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-android31.0/Maui.DataGrid.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Maui.DataGrid.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -1940,19 +1927,6 @@
       }
     },
     "net7.0-android33.0/android-arm": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-android31.0/Maui.DataGrid.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Maui.DataGrid.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -3878,19 +3852,6 @@
       }
     },
     "net7.0-android33.0/android-arm64": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-android31.0/Maui.DataGrid.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Maui.DataGrid.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -5816,19 +5777,6 @@
       }
     },
     "net7.0-android33.0/android-x64": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-android31.0/Maui.DataGrid.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Maui.DataGrid.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -7754,19 +7702,6 @@
       }
     },
     "net7.0-android33.0/android-x86": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-android31.0/Maui.DataGrid.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Maui.DataGrid.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -9692,19 +9627,6 @@
       }
     },
     "net7.0-android33.0/iossimulator-x64": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-android31.0/Maui.DataGrid.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Maui.DataGrid.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -11630,19 +11552,6 @@
       }
     },
     "net7.0-android33.0/maccatalyst-x64": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-android31.0/Maui.DataGrid.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Maui.DataGrid.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -13568,19 +13477,6 @@
       }
     },
     "net7.0-android33.0/win10-x64": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-android31.0/Maui.DataGrid.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-android31.0/Maui.DataGrid.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -15506,18 +15402,6 @@
       }
     },
     "net7.0-ios16.1": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-ios16.1/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-ios16.1/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -15697,31 +15581,11 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
           }
         }
       }
     },
     "net7.0-ios16.1/android-arm": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-ios16.1/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-ios16.1/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -15901,31 +15765,11 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
           }
         }
       }
     },
     "net7.0-ios16.1/android-arm64": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-ios16.1/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-ios16.1/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16105,31 +15949,11 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
           }
         }
       }
     },
     "net7.0-ios16.1/android-x64": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-ios16.1/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-ios16.1/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16309,31 +16133,11 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
           }
         }
       }
     },
     "net7.0-ios16.1/android-x86": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-ios16.1/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-ios16.1/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16513,31 +16317,11 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
           }
         }
       }
     },
     "net7.0-ios16.1/iossimulator-x64": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-ios16.1/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-ios16.1/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16717,31 +16501,11 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
           }
         }
       }
     },
     "net7.0-ios16.1/maccatalyst-x64": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-ios16.1/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-ios16.1/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16921,31 +16685,11 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
           }
         }
       }
     },
     "net7.0-ios16.1/win10-x64": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-ios16.1/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-ios16.1/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17125,31 +16869,11 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
           }
         }
       }
     },
     "net7.0-maccatalyst16.1": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst16.1/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst16.1/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17329,31 +17053,11 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
           }
         }
       }
     },
     "net7.0-maccatalyst16.1/android-arm": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst16.1/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst16.1/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17533,31 +17237,11 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
           }
         }
       }
     },
     "net7.0-maccatalyst16.1/android-arm64": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst16.1/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst16.1/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17737,31 +17421,11 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
           }
         }
       }
     },
     "net7.0-maccatalyst16.1/android-x64": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst16.1/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst16.1/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17941,31 +17605,11 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
           }
         }
       }
     },
     "net7.0-maccatalyst16.1/android-x86": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst16.1/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst16.1/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18145,31 +17789,11 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
           }
         }
       }
     },
     "net7.0-maccatalyst16.1/iossimulator-x64": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst16.1/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst16.1/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18349,31 +17973,11 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
           }
         }
       }
     },
     "net7.0-maccatalyst16.1/maccatalyst-x64": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst16.1/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst16.1/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18553,31 +18157,11 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
-          }
-        }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
           }
         }
       }
     },
     "net7.0-maccatalyst16.1/win10-x64": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
-        },
-        "compile": {
-          "lib/net6.0-maccatalyst16.1/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-maccatalyst16.1/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18759,26 +18343,9 @@
             "related": ".pdb;.xml"
           }
         }
-      },
-      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/net6.0/System.Runtime.InteropServices.dll": {
-            "related": ".xml"
-          }
-        }
       }
     },
     "net7.0-windows10.0.19041": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-windows10.0.19041/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-windows10.0.19041/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19101,15 +18668,6 @@
       }
     },
     "net7.0-windows10.0.19041/android-arm": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-windows10.0.19041/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-windows10.0.19041/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19404,15 +18962,6 @@
       }
     },
     "net7.0-windows10.0.19041/android-arm64": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-windows10.0.19041/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-windows10.0.19041/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19707,15 +19256,6 @@
       }
     },
     "net7.0-windows10.0.19041/android-x64": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-windows10.0.19041/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-windows10.0.19041/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20010,15 +19550,6 @@
       }
     },
     "net7.0-windows10.0.19041/android-x86": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-windows10.0.19041/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-windows10.0.19041/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20313,15 +19844,6 @@
       }
     },
     "net7.0-windows10.0.19041/iossimulator-x64": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-windows10.0.19041/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-windows10.0.19041/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20616,15 +20138,6 @@
       }
     },
     "net7.0-windows10.0.19041/maccatalyst-x64": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-windows10.0.19041/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-windows10.0.19041/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20919,15 +20432,6 @@
       }
     },
     "net7.0-windows10.0.19041/win10-x64": {
-      "akgul.Maui.DataGrid/2.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-windows10.0.19041/Maui.DataGrid.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-windows10.0.19041/Maui.DataGrid.dll": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -21229,24 +20733,6 @@
     }
   },
   "libraries": {
-    "akgul.Maui.DataGrid/2.0.0": {
-      "sha512": "LxeBOWCCxvpfUkIovUEd+7knSWO/kk4za3Zkm6X5qr9wb8lsjhJB8UP0UQr8xlZEzUd2JM6r30MCs2bXJa2SlA==",
-      "type": "package",
-      "path": "akgul.maui.datagrid/2.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "akgul.maui.datagrid.2.0.0.nupkg.sha512",
-        "akgul.maui.datagrid.nuspec",
-        "lib/net6.0-android31.0/Maui.DataGrid.dll",
-        "lib/net6.0-android31.0/Maui.DataGrid.xml",
-        "lib/net6.0-ios16.1/Maui.DataGrid.dll",
-        "lib/net6.0-maccatalyst16.1/Maui.DataGrid.dll",
-        "lib/net6.0-windows10.0.19041/Maui.DataGrid.dll",
-        "lib/net6.0/Maui.DataGrid.dll"
-      ]
-    },
     "GoogleGson/2.9.1.1": {
       "sha512": "OreKEL2Yx2u8YhRqv0e+j45cEzoe+fyMEzGN+M/vfBDPsIXQcA6lGdHXO07bTrGn6NNwxY67dyIfbyXx3A7cDA==",
       "type": "package",
@@ -22478,23 +21964,6 @@
         "tools/net5.0/zh-TW/Microsoft.Build.Msix.resources.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
-      ]
-    },
-    "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
-      "sha512": "vq+81ZqZz9oHV6iWgGXFnxHAyO5xA73nfvDNu5LwymIK294is5bRo3P063VToAbDRyyc0qq/YFRYjHmiD6Cv8Q==",
-      "type": "package",
-      "path": "system.runtime.interopservices.nfloat.internal/6.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "ref/net6.0/System.Runtime.InteropServices.dll",
-        "ref/net6.0/System.Runtime.InteropServices.xml",
-        "system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
-        "system.runtime.interopservices.nfloat.internal.nuspec",
-        "useSharedDesignerContext.txt"
       ]
     },
     "Xamarin.Android.Glide/4.13.2.2": {
@@ -24513,8 +23982,7 @@
       "Xamarin.AndroidX.Navigation.UI >= 2.5.2.1",
       "Xamarin.AndroidX.Security.SecurityCrypto >= 1.1.0-alpha03",
       "Xamarin.Google.Android.Material >= 1.7.0",
-      "Xamarin.Google.Crypto.Tink.Android >= 1.7.0.1",
-      "akgul.Maui.DataGrid >= 2.0.0"
+      "Xamarin.Google.Crypto.Tink.Android >= 1.7.0.1"
     ],
     "net7.0-ios16.1": [
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -24522,8 +23990,7 @@
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.86",
-      "akgul.Maui.DataGrid >= 2.0.0"
+      "Microsoft.Maui.Graphics >= 7.0.86"
     ],
     "net7.0-maccatalyst16.1": [
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -24531,8 +23998,7 @@
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.86",
-      "akgul.Maui.DataGrid >= 2.0.0"
+      "Microsoft.Maui.Graphics >= 7.0.86"
     ],
     "net7.0-windows10.0.19041": [
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -24543,8 +24009,7 @@
       "Microsoft.Maui.Graphics >= 7.0.86",
       "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.86",
       "Microsoft.Windows.SDK.BuildTools >= 10.0.22621.755",
-      "Microsoft.WindowsAppSDK >= 1.2.221209.1",
-      "akgul.Maui.DataGrid >= 2.0.0"
+      "Microsoft.WindowsAppSDK >= 1.2.221209.1"
     ]
   },
   "packageFolders": {
@@ -24698,10 +24163,6 @@
             "target": "Package",
             "version": "[1.7.0.1, )",
             "autoReferenced": true
-          },
-          "akgul.Maui.DataGrid": {
-            "target": "Package",
-            "version": "[2.0.0, )"
           }
         },
         "imports": [
@@ -24765,10 +24226,6 @@
             "target": "Package",
             "version": "[7.0.86, )",
             "autoReferenced": true
-          },
-          "akgul.Maui.DataGrid": {
-            "target": "Package",
-            "version": "[2.0.0, )"
           }
         },
         "imports": [
@@ -24832,10 +24289,6 @@
             "target": "Package",
             "version": "[7.0.86, )",
             "autoReferenced": true
-          },
-          "akgul.Maui.DataGrid": {
-            "target": "Package",
-            "version": "[2.0.0, )"
           }
         },
         "imports": [
@@ -24916,10 +24369,6 @@
             "target": "Package",
             "version": "[1.2.221209.1, )",
             "autoReferenced": true
-          },
-          "akgul.Maui.DataGrid": {
-            "target": "Package",
-            "version": "[2.0.0, )"
           }
         },
         "imports": [
