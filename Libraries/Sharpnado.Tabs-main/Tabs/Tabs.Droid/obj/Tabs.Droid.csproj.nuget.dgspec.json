@@ -1,0 +1,181 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\01_Projects\\SELF_PROJECT\\MAUI\\Libraries\\Sharpnado.Tabs-main\\Tabs\\Tabs.Droid\\Tabs.Droid.csproj": {}
+  },
+  "projects": {
+    "D:\\01_Projects\\SELF_PROJECT\\MAUI\\Libraries\\Sharpnado.Tabs-main\\Tabs\\Tabs.Droid\\Tabs.Droid.csproj": {
+      "version": "2.2.0",
+      "restore": {
+        "projectUniqueName": "D:\\01_Projects\\SELF_PROJECT\\MAUI\\Libraries\\Sharpnado.Tabs-main\\Tabs\\Tabs.Droid\\Tabs.Droid.csproj",
+        "projectName": "Sharpnado.Tabs.Android",
+        "projectPath": "D:\\01_Projects\\SELF_PROJECT\\MAUI\\Libraries\\Sharpnado.Tabs-main\\Tabs\\Tabs.Droid\\Tabs.Droid.csproj",
+        "packagesPath": "C:\\Users\\DLIT\\.nuget\\packages\\",
+        "outputPath": "D:\\01_Projects\\SELF_PROJECT\\MAUI\\Libraries\\Sharpnado.Tabs-main\\Tabs\\Tabs.Droid\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DLIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid10.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid10.0": {
+            "projectReferences": {
+              "D:\\01_Projects\\SELF_PROJECT\\MAUI\\Libraries\\Sharpnado.Tabs-main\\Tabs\\Tabs\\Tabs.csproj": {
+                "projectPath": "D:\\01_Projects\\SELF_PROJECT\\MAUI\\Libraries\\Sharpnado.Tabs-main\\Tabs\\Tabs\\Tabs.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid10.0": {
+          "dependencies": {
+            "MSBuildTasks": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.5.0.235, )"
+            },
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Sharpnado.Shadows": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Sharpnado.TaskMonitor": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.354, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            }
+          }
+        }
+      }
+    },
+    "D:\\01_Projects\\SELF_PROJECT\\MAUI\\Libraries\\Sharpnado.Tabs-main\\Tabs\\Tabs\\Tabs.csproj": {
+      "version": "2.2.0",
+      "restore": {
+        "projectUniqueName": "D:\\01_Projects\\SELF_PROJECT\\MAUI\\Libraries\\Sharpnado.Tabs-main\\Tabs\\Tabs\\Tabs.csproj",
+        "projectName": "Sharpnado.Tabs",
+        "projectPath": "D:\\01_Projects\\SELF_PROJECT\\MAUI\\Libraries\\Sharpnado.Tabs-main\\Tabs\\Tabs\\Tabs.csproj",
+        "packagesPath": "C:\\Users\\DLIT\\.nuget\\packages\\",
+        "outputPath": "D:\\01_Projects\\SELF_PROJECT\\MAUI\\Libraries\\Sharpnado.Tabs-main\\Tabs\\Tabs\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DLIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "MSBuildTasks": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.5.0.235, )"
+            },
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Sharpnado.Shadows": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Sharpnado.TaskMonitor": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.354, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

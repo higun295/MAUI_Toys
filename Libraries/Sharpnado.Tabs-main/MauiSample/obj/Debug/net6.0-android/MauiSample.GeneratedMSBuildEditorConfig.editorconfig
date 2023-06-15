@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net6.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MauiSample
+build_property.ProjectDir = D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Sharpnado.Tabs-main\MauiSample\
+
+[D:/01_Projects/SELF_PROJECT/MAUI/Libraries/Sharpnado.Tabs-main/MauiSample/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSample.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/01_Projects/SELF_PROJECT/MAUI/Libraries/Sharpnado.Tabs-main/MauiSample/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSample.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/01_Projects/SELF_PROJECT/MAUI/Libraries/Sharpnado.Tabs-main/MauiSample/Presentation/CustomViews/SpamTab.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSample.Presentation.CustomViews.SpamTab.xaml
+build_metadata.AdditionalFiles.TargetPath = Presentation\CustomViews\SpamTab.xaml
+build_metadata.AdditionalFiles.RelativePath = Presentation\CustomViews\SpamTab.xaml
+
+[D:/01_Projects/SELF_PROJECT/MAUI/Libraries/Sharpnado.Tabs-main/MauiSample/Presentation/CustomViews/Toolbar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSample.Presentation.CustomViews.Toolbar.xaml
+build_metadata.AdditionalFiles.TargetPath = Presentation\CustomViews\Toolbar.xaml
+build_metadata.AdditionalFiles.RelativePath = Presentation\CustomViews\Toolbar.xaml
+
+[D:/01_Projects/SELF_PROJECT/MAUI/Libraries/Sharpnado.Tabs-main/MauiSample/Presentation/Views/AnotherLazyView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSample.Presentation.Views.AnotherLazyView.xaml
+build_metadata.AdditionalFiles.TargetPath = Presentation\Views\AnotherLazyView.xaml
+build_metadata.AdditionalFiles.RelativePath = Presentation\Views\AnotherLazyView.xaml
+
+[D:/01_Projects/SELF_PROJECT/MAUI/Libraries/Sharpnado.Tabs-main/MauiSample/Presentation/Views/TabA.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSample.Presentation.Views.TabA.xaml
+build_metadata.AdditionalFiles.TargetPath = Presentation\Views\TabA.xaml
+build_metadata.AdditionalFiles.RelativePath = Presentation\Views\TabA.xaml
+
+[D:/01_Projects/SELF_PROJECT/MAUI/Libraries/Sharpnado.Tabs-main/MauiSample/Presentation/Views/TabI.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSample.Presentation.Views.TabI.xaml
+build_metadata.AdditionalFiles.TargetPath = Presentation\Views\TabI.xaml
+build_metadata.AdditionalFiles.RelativePath = Presentation\Views\TabI.xaml
+
+[D:/01_Projects/SELF_PROJECT/MAUI/Libraries/Sharpnado.Tabs-main/MauiSample/Presentation/Views/TabM.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSample.Presentation.Views.TabM.xaml
+build_metadata.AdditionalFiles.TargetPath = Presentation\Views\TabM.xaml
+build_metadata.AdditionalFiles.RelativePath = Presentation\Views\TabM.xaml
+
+[D:/01_Projects/SELF_PROJECT/MAUI/Libraries/Sharpnado.Tabs-main/MauiSample/Presentation/Views/TabU.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSample.Presentation.Views.TabU.xaml
+build_metadata.AdditionalFiles.TargetPath = Presentation\Views\TabU.xaml
+build_metadata.AdditionalFiles.RelativePath = Presentation\Views\TabU.xaml
+
+[D:/01_Projects/SELF_PROJECT/MAUI/Libraries/Sharpnado.Tabs-main/MauiSample/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSample.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/01_Projects/SELF_PROJECT/MAUI/Libraries/Sharpnado.Tabs-main/MauiSample/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiSample.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

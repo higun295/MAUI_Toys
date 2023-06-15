@@ -1,1 +1,0 @@
-D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Maui.DataGrid-main2\Maui.DataGrid.Sample\Maui.DataGrid.Sample.csproj;x64

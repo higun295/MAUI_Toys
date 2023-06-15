@@ -1,0 +1,29 @@
+is_global = true
+build_property.TargetFramework = net6.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Sharpnado.Tabs
+build_property.ProjectDir = D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Sharpnado.Tabs-main\Maui.Tabs\
+
+[D:/01_Projects/SELF_PROJECT/MAUI/Libraries/Sharpnado.Tabs-main/Maui.Tabs/BottomTabItem.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Sharpnado.Tabs.BottomTabItem.xaml
+build_metadata.AdditionalFiles.TargetPath = BottomTabItem.xaml
+build_metadata.AdditionalFiles.RelativePath = BottomTabItem.xaml
+
+[D:/01_Projects/SELF_PROJECT/MAUI/Libraries/Sharpnado.Tabs-main/Maui.Tabs/MaterialUnderlinedTabItem.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Sharpnado.Tabs.MaterialUnderlinedTabItem.xaml
+build_metadata.AdditionalFiles.TargetPath = MaterialUnderlinedTabItem.xaml
+build_metadata.AdditionalFiles.RelativePath = MaterialUnderlinedTabItem.xaml
+
+[D:/01_Projects/SELF_PROJECT/MAUI/Libraries/Sharpnado.Tabs-main/Maui.Tabs/UnderlinedTabItem.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Sharpnado.Tabs.UnderlinedTabItem.xaml
+build_metadata.AdditionalFiles.TargetPath = UnderlinedTabItem.xaml
+build_metadata.AdditionalFiles.RelativePath = UnderlinedTabItem.xaml

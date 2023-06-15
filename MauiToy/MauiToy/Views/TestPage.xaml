@@ -5,6 +5,11 @@
              xmlns:controls="clr-namespace:MauiToy.Controls"
              Title="TestPage">
     <VerticalStackLayout>
-        <controls:TabView />
+        <controls:TabView>
+            <controls:TabItem />
+            <controls:TabItem />
+            <controls:TabItem />
+            <controls:TabItem />
+        </controls:TabView>
     </VerticalStackLayout>
 </ContentPage>
