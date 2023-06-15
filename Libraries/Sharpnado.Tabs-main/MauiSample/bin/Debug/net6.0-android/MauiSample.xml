@@ -1,0 +1,500 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MauiSample</name>
+    </assembly>
+    <members>
+        <member name="T:MauiSample.DependencyContainer">
+            <summary>
+            The dependency container.
+            </summary>
+        </member>
+        <member name="P:MauiSample.DependencyContainer.Instance">
+            <summary>
+            The instance.
+            </summary>
+        </member>
+        <member name="M:MauiSample.Infrastructure.PlatformService.ForceGarbageCollector">
+            <summary>
+            Call this when you are sure the UI is Idled to clean up resources.
+            </summary>
+        </member>
+        <member name="T:MauiSample.Localization.SillyResources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.Empty_Screen">
+            <summary>
+              Looks up a localized string similar to Nothing here folks..
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.Error_Business">
+            <summary>
+              Looks up a localized string similar to &quot;It&apos;s not me, it&apos;s the back office.&quot;.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.Error_Network">
+            <summary>
+              Looks up a localized string similar to Couldn&apos;t reach the Internet..
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.Error_Unknown">
+            <summary>
+              Looks up a localized string similar to &quot;An ill wind is blowing...&quot;.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.ErrorButton_Retry">
+            <summary>
+              Looks up a localized string similar to RETRY.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.ErrorType_Network">
+            <summary>
+              Looks up a localized string similar to Network Error thrown.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.ErrorType_NoData">
+            <summary>
+              Looks up a localized string similar to No Data returned.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.ErrorType_None">
+            <summary>
+              Looks up a localized string similar to No Error.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.ErrorType_Server">
+            <summary>
+              Looks up a localized string similar to Server Exception thrown.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.ErrorType_Unknown">
+            <summary>
+              Looks up a localized string similar to Unknown Error thrown.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.SillyDude_GoToSource">
+            <summary>
+              Looks up a localized string similar to WATCH ON YOUTUBE.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.SillyInfiniteGridPeople_Title">
+            <summary>
+              Looks up a localized string similar to Infinite Grid.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.SillyPeople_ErrorEmulation">
+            <summary>
+              Looks up a localized string similar to Error Emulation.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.SillyPeople_GoToGrid">
+            <summary>
+              Looks up a localized string similar to GRID MODE.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.SillyPeople_HorizontalListView">
+            <summary>
+              Looks up a localized string similar to HORIZONTAL LIST VIEW.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.SillyPeople_InfiniteListView">
+            <summary>
+              Looks up a localized string similar to INFINITE LIST VIEW.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.SillyPeople_SillyOfTheDay">
+            <summary>
+              Looks up a localized string similar to SILLY DUDE OF THE DAY.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.SillyPeople_TaskLoaderView">
+            <summary>
+              Looks up a localized string similar to TASK LOADER VIEW.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.SillyPeople_Title">
+            <summary>
+              Looks up a localized string similar to Sharpnado.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.SortSillyPeople_Title">
+            <summary>
+              Looks up a localized string similar to Drag&apos;N&apos;Drop.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.Tabs_Filmography">
+            <summary>
+              Looks up a localized string similar to FILMOGRAPHY.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.Tabs_Grid">
+            <summary>
+              Looks up a localized string similar to Grid.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.Tabs_Home">
+            <summary>
+              Looks up a localized string similar to Home.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.Tabs_List">
+            <summary>
+              Looks up a localized string similar to List.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.Tabs_Meme">
+            <summary>
+              Looks up a localized string similar to MEME.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Localization.SillyResources.Tabs_Quote">
+            <summary>
+              Looks up a localized string similar to QUOTE.
+            </summary>
+        </member>
+        <member name="T:MauiSample.Presentation.Navigables.Impl.FormsNavigationService">
+            <summary>
+            The forms navigation service.
+            </summary>
+        </member>
+        <member name="F:MauiSample.Presentation.Navigables.Impl.FormsNavigationService._lazyFormsNavigation">
+            <summary>
+            The lazy forms navigation.
+            </summary>
+        </member>
+        <member name="F:MauiSample.Presentation.Navigables.Impl.FormsNavigationService._viewLocator">
+            <summary>
+            The view locator.
+            </summary>
+        </member>
+        <member name="M:MauiSample.Presentation.Navigables.Impl.FormsNavigationService.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MauiSample.Presentation.Navigables.Impl.FormsNavigationService"/> class.
+            </summary>
+            <param name="lazyFormsNavigation">
+            The lazy forms navigation.
+            </param>
+            <param name="viewLocator">
+            The view locator.
+            </param>
+        </member>
+        <member name="P:MauiSample.Presentation.Navigables.Impl.FormsNavigationService.NavigationPage">
+            <summary>
+            The navigation page.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Presentation.Navigables.Impl.FormsNavigationService.FormsNavigation">
+            <summary>
+            The forms navigation.
+            </summary>
+        </member>
+        <member name="M:MauiSample.Presentation.Navigables.Impl.ViewLocator.GetViewTypeFor``1">
+            <summary>
+            Gets the view type matching the given view model.
+            </summary>
+            <typeparam name="TViewModel">
+            The view model type.
+            </typeparam>
+            <returns>
+            </returns>
+        </member>
+        <member name="M:MauiSample.Presentation.Navigables.Impl.ViewLocator.GetViewTypeFor``1(``0,MauiSample.Presentation.Navigables.NavigationTransition)">
+            <summary>
+            Gets the view type matching the given view model and transition.
+            </summary>
+            <param name="viewModel">
+            </param>
+            <param name="transition">
+            </param>
+            <typeparam name="TViewModel">
+            The view model type.
+            </typeparam>
+            <returns>
+            </returns>
+        </member>
+        <member name="M:MauiSample.Presentation.Navigables.INavigationService.NavigateToAsync``1(System.Object,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Navigates to the bindable page matching the given navigable view model type.
+            </summary>
+            <typeparam name="TViewModel">
+            The view model type.
+            </typeparam>
+            <param name="parameter">
+            The parameter passed to the view model Load method.
+            </param>
+            <param name="modalNavigation">
+            True if we want a modal navigation.
+            </param>
+            <param name="clearStack">
+            Navigate and clears the stack history (the new view become the new navigation root)
+            </param>
+            <param name="animated">
+            If true animate the navigation.
+            </param>
+            <returns>
+            </returns>
+        </member>
+        <member name="M:MauiSample.Presentation.Navigables.INavigationService.NavigateToAsync``1(``0,MauiSample.Presentation.Navigables.NavigationTransition,System.Boolean)">
+            <summary>
+            Navigates to the bindable page matching the given navigable view model type + the given transition.
+            </summary>
+            <example>
+            FullAutoPatientAssayScreenVm + NavigationTransition.ToResult =&gt; navigates to a PatientAssayResultView
+            </example>
+            <typeparam name="TViewModel">
+            The view model type.
+            </typeparam>
+            <param name="viewModel">
+            The view model instance.
+            </param>
+            <param name="transition">
+            The transition to be made.
+            </param>
+            <param name="rootChild">
+            Navigates and makes the new view a child from the root page.
+            </param>
+            <returns>
+            </returns>
+        </member>
+        <member name="M:MauiSample.Presentation.Navigables.INavigationService.NavigateFromMenuToAsync``1">
+            <summary>
+            Navigation from menu means: reset the stack, and then add the new page.
+            </summary>
+            <typeparam name="TViewModel">
+            The view model to navigate to.
+            </typeparam>
+            <returns>
+            </returns>
+        </member>
+        <member name="M:MauiSample.Presentation.Navigables.INavigationService.NavigateBackAsync(System.Object)">
+            <summary>
+            Closes the current bindable page.
+            </summary>
+            <returns>
+            </returns>
+        </member>
+        <member name="T:MauiSample.Presentation.Navigables.IBindablePage">
+            <summary>
+            Bindable page.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Presentation.Navigables.IBindablePage.BindingContext">
+            <summary>
+            Gets or sets the binding context.
+            </summary>
+        </member>
+        <member name="T:MauiSample.Presentation.Navigables.IViewLocator">
+            <summary>
+            Service responsible for locating the correct view from the ViewModel infos.
+            The service is currently also responsible for the creation of the view and the view model if needed.
+            </summary>
+        </member>
+        <member name="M:MauiSample.Presentation.Navigables.IViewLocator.GetViewFor``1">
+            <summary>
+            Builds the view matching the given view model type.
+            Builds the view model and bind it to the created view.
+            Loads the view model.
+            </summary>
+            <typeparam name="TViewModel">
+            The view model type.
+            </typeparam>
+            <returns>
+            </returns>
+        </member>
+        <member name="M:MauiSample.Presentation.Navigables.IViewLocator.GetViewFor``1(``0,MauiSample.Presentation.Navigables.NavigationTransition)">
+            <summary>
+            Builds the view matching the given [view model type + transition].
+            Binds the view model instance to the created view.
+            </summary>
+            <example>
+            FullAutoPatientAssayScreenVm + NavigationTransition.ToResult =&gt; creates a PatientAssayResultView
+            </example>
+            <typeparam name="TViewModel">
+            The view model type.
+            </typeparam>
+            <param name="viewModel">
+            The view model to be bound to the created view.
+            </param>
+            <param name="transition">
+            The transition leading to the view.
+            </param>
+            <remarks>
+            The service regards the view model as already loaded.
+            </remarks>
+            <returns>
+            </returns>
+        </member>
+        <member name="M:MauiSample.Presentation.Navigables.IViewLocator.GetViewTypeFor``1">
+            <summary>
+            Gets the view type matching the given view model.
+            </summary>
+            <typeparam name="TViewModel">
+            The view model type.
+            </typeparam>
+            <returns>
+            </returns>
+        </member>
+        <member name="M:MauiSample.Presentation.Navigables.IViewLocator.GetViewTypeFor``1(``0,MauiSample.Presentation.Navigables.NavigationTransition)">
+            <summary>
+            Gets the view type matching the given view model and transition.
+            </summary>
+            <param name="viewModel">
+            </param>
+            <param name="transition">
+            </param>
+            <typeparam name="TViewModel">
+            The view model type.
+            </typeparam>
+            <returns>
+            </returns>
+        </member>
+        <member name="T:MauiSample.Presentation.Navigables.NavigationTransition">
+            <summary>
+            </summary>
+        </member>
+        <member name="F:MauiSample.Presentation.Navigables.NavigationTransition.Unknown">
+            <summary>
+            </summary>
+        </member>
+        <member name="F:MauiSample.Presentation.Navigables.NavigationTransition.ToResult">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:MauiSample.Presentation.ViewModels.ANavigableViewModel">
+            <summary>
+            The a navigable view model.
+            </summary>
+        </member>
+        <member name="M:MauiSample.Presentation.ViewModels.ANavigableViewModel.#ctor(MauiSample.Presentation.Navigables.INavigationService)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MauiSample.Presentation.ViewModels.ANavigableViewModel"/> class.
+            </summary>
+            <param name="navigationService">
+            The navigation service.
+            </param>
+        </member>
+        <member name="E:MauiSample.Presentation.ViewModels.ANavigableViewModel.PropertyChanged">
+            <summary>
+            The property changed.
+            </summary>
+        </member>
+        <member name="P:MauiSample.Presentation.ViewModels.ANavigableViewModel.NavigationService">
+            <summary>
+            The navigation service.
+            </summary>
+        </member>
+        <member name="M:MauiSample.Presentation.ViewModels.ANavigableViewModel.Load(System.Object)">
+            <summary>
+            The load.
+            </summary>
+            <param name="parameter">
+            The parameter.
+            </param>
+        </member>
+        <member name="M:MauiSample.Presentation.ViewModels.ANavigableViewModel.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})">
+            <summary>
+            The raise property changed.
+            </summary>
+            <param name="expression">
+            The expression.
+            </param>
+            <typeparam name="T">
+            </typeparam>
+            <exception cref="T:System.ArgumentException">
+            </exception>
+            <exception cref="T:System.NotSupportedException">
+            </exception>
+        </member>
+        <member name="M:MauiSample.Presentation.ViewModels.ANavigableViewModel.RaisePropertyChanged(System.String)">
+            <summary>
+            The raise property changed.
+            </summary>
+            <param name="propertyName">
+            The property name.
+            </param>
+        </member>
+        <member name="M:MauiSample.Presentation.ViewModels.ANavigableViewModel.SetAndRaise``1(``0@,``0,System.String)">
+            <summary>
+            The set and raise.
+            </summary>
+            <param name="property">
+            The property.
+            </param>
+            <param name="value">
+            The value.
+            </param>
+            <param name="propertyName">
+            The property name.
+            </param>
+            <typeparam name="T">
+            </typeparam>
+            <returns>
+            The <see cref="T:System.Boolean"/>.
+            </returns>
+        </member>
+        <member name="T:MauiSample.Presentation.ViewModels.SillyDudeVm">
+            <summary>
+            Class SillyDudeVm.
+            </summary>
+        </member>
+        <member name="F:MauiSample.Presentation.ViewModels.SillyDudeVm._dudeService">
+            <summary>
+            The front service.
+            </summary>
+        </member>
+        <member name="M:MauiSample.Presentation.ViewModels.SillyDudeVm.#ctor(MauiSample.Presentation.Navigables.INavigationService,MauiSample.Domain.Silly.ISillyDudeService)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MauiSample.Presentation.ViewModels.SillyDudeVm"/> class.
+            </summary>
+            <param name="navigationService">
+            The navigation service.
+            </param>
+            <param name="sillyDudeService">
+            The silly front service.
+            </param>
+        </member>
+        <member name="P:MauiSample.Presentation.ViewModels.SillyDudeVm.SillyDudeLoaderNotifier">
+            <summary>
+            Gets or sets the silly dude task.
+            </summary>
+            <value>The silly dude task.</value>
+        </member>
+        <member name="M:MauiSample.Presentation.ViewModels.SillyDudeVm.Load(System.Object)">
+            <summary>
+            Loads the specified parameter.
+            </summary>
+            <param name="parameter">
+            The parameter.
+            </param>
+        </member>
+        <member name="P:MauiSample.Presentation.ViewModels.HomePageViewModel.GoToSillyDudeCommand">
+            <summary>
+            Commands accessible directly on screen are declared in the ScreenVm.
+            Here, it is a command to navigate to the second screen.
+            </summary>
+        </member>
+        <member name="M:MauiSample.Presentation.ViewModels.HomePageViewModel.InitCommands">
+            <summary>
+            We usually init all commands in a "InitCommands" method which is called in constructor.
+            </summary>
+        </member>
+        <member name="M:MauiSample.Presentation.ViewModels.HomePageViewModel.GoToSillyDudeAsync(MauiSample.Presentation.ViewModels.SillyDudeVmo)">
+            <param name="sillyDude">The silly dude.</param>
+            <returns>The <see cref="T:System.Threading.Tasks.Task" />.</returns>
+            <exception cref="T:System.InvalidOperationException">The knights demand...... A SACRIFICE!</exception>
+        </member>
+    </members>
+</doc>

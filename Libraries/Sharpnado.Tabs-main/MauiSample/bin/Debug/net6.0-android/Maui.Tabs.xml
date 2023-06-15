@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Maui.Tabs</name>
+    </assembly>
+    <members>
+        <member name="P:Sharpnado.Tabs.TabHostView.SegmentedOutlineColor">
+            <summary>
+            Only available if IsSegmented is true.
+            </summary>
+        </member>
+        <member name="P:Sharpnado.Tabs.TabHostView.SegmentedHasSeparator">
+            <summary>
+            Only available if IsSegmented is true.
+            </summary>
+        </member>
+    </members>
+</doc>

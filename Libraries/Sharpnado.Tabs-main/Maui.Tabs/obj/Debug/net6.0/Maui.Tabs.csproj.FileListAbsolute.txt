@@ -1,0 +1,13 @@
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Sharpnado.Tabs-main\Maui.Tabs\bin\Debug\net6.0\Maui.Tabs.deps.json
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Sharpnado.Tabs-main\Maui.Tabs\bin\Debug\net6.0\Maui.Tabs.dll
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Sharpnado.Tabs-main\Maui.Tabs\bin\Debug\net6.0\Maui.Tabs.pdb
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Sharpnado.Tabs-main\Maui.Tabs\obj\Debug\net6.0\Maui.Tabs.csproj.AssemblyReference.cache
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Sharpnado.Tabs-main\Maui.Tabs\obj\Debug\net6.0\Maui.Tabs.GeneratedMSBuildEditorConfig.editorconfig
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Sharpnado.Tabs-main\Maui.Tabs\obj\Debug\net6.0\Maui.Tabs.AssemblyInfoInputs.cache
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Sharpnado.Tabs-main\Maui.Tabs\obj\Debug\net6.0\Maui.Tabs.AssemblyInfo.cs
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Sharpnado.Tabs-main\Maui.Tabs\obj\Debug\net6.0\Maui.Tabs.csproj.CoreCompileInputs.cache
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Sharpnado.Tabs-main\Maui.Tabs\obj\Debug\net6.0\XamlC.stamp
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Sharpnado.Tabs-main\Maui.Tabs\obj\Debug\net6.0\Maui.Tabs.dll
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Sharpnado.Tabs-main\Maui.Tabs\obj\Debug\net6.0\refint\Maui.Tabs.dll
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Sharpnado.Tabs-main\Maui.Tabs\obj\Debug\net6.0\Maui.Tabs.pdb
+D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Sharpnado.Tabs-main\Maui.Tabs\obj\Debug\net6.0\ref\Maui.Tabs.dll

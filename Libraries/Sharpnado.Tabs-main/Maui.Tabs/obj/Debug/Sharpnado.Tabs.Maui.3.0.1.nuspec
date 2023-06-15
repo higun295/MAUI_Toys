@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Sharpnado.Tabs.Maui</id>
+    <version>3.0.1</version>
+    <title>"Pure" MAUI Tabs (no renderers)</title>
+    <authors>Jean-Marie Alfonsi</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>images\logo_maui.png</icon>
+    <readme>docs\ReadMe.md</readme>
+    <projectUrl>https://github.com/roubachof/Sharpnado.Tabs</projectUrl>
+    <description>Pure MAUI Tabs:
+			* Fixed tabs (android tabs style)
+			* Scrollable tabs
+			* Vertical tabs
+			* Material design tabs (top and leading icon)
+			* Support for SVG images
+			* Segmented tabs
+			* Custom shadows (neumorphism ready)
+			* Badges on tabs
+			* Circle button in tab bar
+			* Bottom bar tabs (ios tabs style)
+			* Custom tabs (be creative just implement TabItem)
+			* Independent ViewSwitcher
+			* Bindable with ItemsSource
+
+			## Installation
+
+			* In Core project, in `MauiProgram.cs`:
+
+			```csharp
+			public static MauiApp CreateMauiApp()
+			{
+				var builder = MauiApp.CreateBuilder();
+				builder
+					.UseMauiApp()
+					.UseSharpnadoTabs(loggerEnabled: false);
+			}
+			```</description>
+    <releaseNotes>First MAUI release \o/</releaseNotes>
+    <copyright>Copyright 2022 Sharpnado</copyright>
+    <tags>maui dotnetmaui xamarin.forms android ios uwp netstandard tabs segmented control bottombar fixed tabs scrollable tabs badge</tags>
+    <repository url="https://github.com/roubachof/Sharpnado.Tabs" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Sharpnado.TaskMonitor" version="1.0.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0-android31.0">
+        <dependency id="Sharpnado.TaskMonitor" version="1.0.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0-ios16.1">
+        <dependency id="Sharpnado.TaskMonitor" version="1.0.2" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.InteropServices.NFloat.Internal" version="6.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0-maccatalyst16.1">
+        <dependency id="Sharpnado.TaskMonitor" version="1.0.2" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.InteropServices.NFloat.Internal" version="6.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0-windows10.0.19041">
+        <dependency id="Sharpnado.TaskMonitor" version="1.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Sharpnado.Tabs-main\Maui.Tabs\bin\Debug\net6.0\Maui.Tabs.dll" target="lib\net6.0\Maui.Tabs.dll" />
+    <file src="D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Sharpnado.Tabs-main\Maui.Tabs\bin\Debug\net6.0-android\Maui.Tabs.dll" target="lib\net6.0-android31.0\Maui.Tabs.dll" />
+    <file src="D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Sharpnado.Tabs-main\Maui.Tabs\bin\Debug\net6.0-android\Maui.Tabs.xml" target="lib\net6.0-android31.0\Maui.Tabs.xml" />
+    <file src="D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Sharpnado.Tabs-main\Maui.Tabs\bin\Debug\net6.0-ios\Maui.Tabs.dll" target="lib\net6.0-ios16.1\Maui.Tabs.dll" />
+    <file src="D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Sharpnado.Tabs-main\Maui.Tabs\bin\Debug\net6.0-maccatalyst\Maui.Tabs.dll" target="lib\net6.0-maccatalyst16.1\Maui.Tabs.dll" />
+    <file src="D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Sharpnado.Tabs-main\Maui.Tabs\bin\Debug\net6.0-windows10.0.19041.0\Maui.Tabs.dll" target="lib\net6.0-windows10.0.19041\Maui.Tabs.dll" />
+    <file src="D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Sharpnado.Tabs-main\Docs\logo_maui.png" target="\images\logo_maui.png" />
+    <file src="D:\01_Projects\SELF_PROJECT\MAUI\Libraries\Sharpnado.Tabs-main\Maui.Tabs\ReadMe.md" target="\docs\ReadMe.md" />
+  </files>
+</package>
