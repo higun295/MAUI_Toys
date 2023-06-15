@@ -6,6 +6,11 @@
        xmlns:views="clr-namespace:MauiToy.Views"
        Shell.FlyoutBehavior="Disabled">
 
+    <ShellContent Title="테스트페이지입니다."
+                  ContentTemplate="{DataTemplate views:TestPage}"
+                  FlyoutItemIsVisible="False"
+                  Route="TestPage" />
+
     <ShellContent Title="로그인페이지"
                   ContentTemplate="{DataTemplate views:LoginPage}"
                   FlyoutItemIsVisible="False"

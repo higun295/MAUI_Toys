@@ -32,6 +32,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MauiToy.Controls.Libraries
 build_metadata.AdditionalFiles.TargetPath = Controls\Libraries\DataGrid.xaml
 build_metadata.AdditionalFiles.RelativePath = Controls\Libraries\DataGrid.xaml
 
+[D:/01_Projects/SELF_PROJECT/MAUI/MauiToy/MauiToy/Controls/TabView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiToy.Controls.TabView.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls\TabView.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls\TabView.xaml
+
 [D:/01_Projects/SELF_PROJECT/MAUI/MauiToy/MauiToy/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiToy.MainPage.xaml
@@ -97,3 +103,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiToy.Views.SettingPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\SettingPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\SettingPage.xaml
+
+[D:/01_Projects/SELF_PROJECT/MAUI/MauiToy/MauiToy/Views/TestPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiToy.Views.TestPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TestPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TestPage.xaml

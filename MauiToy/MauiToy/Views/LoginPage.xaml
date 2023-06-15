@@ -50,7 +50,9 @@
             </Grid>
         </Frame>
 
-        <libControls:DataGrid x:Name="dataGrid"
+        <controls:TabView />
+
+        <!--<libControls:DataGrid x:Name="dataGrid"
                               HeaderHeight="30"
                               ItemsSource="{Binding TestSource, Mode=TwoWay}"
                               RowHeight="30"
@@ -76,7 +78,7 @@
                     <Color>#FFFFFF</Color>
                 </libControls:PaletteCollection>
             </libControls:DataGrid.RowsBackgroundColorPalette>
-        </libControls:DataGrid>
+        </libControls:DataGrid>-->
 
         <Button Clicked="btn_Login_Clicked"
                 Text="로그인" />
