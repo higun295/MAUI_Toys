@@ -604,6 +604,9 @@
     <AppxPackagedFile Include="C:\Users\DLIT\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.28\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DLIT\.nuget\packages\communitytoolkit.maui.mediaelement\2.0.0\lib\net7.0-windows10.0.19041\CommunityToolkit.Maui.MediaElement.dll">
+      <PackagePath>CommunityToolkit.Maui.MediaElement.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DLIT\.nuget\packages\microsoft.extensions.configuration\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
     </AppxPackagedFile>
@@ -682,6 +685,9 @@
     <AppxPackagedFile Include="C:\Users\DLIT\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DLIT\.nuget\packages\plugin.maui.audio\1.0.0\lib\net6.0-windows10.0.19041\Plugin.Maui.Audio.dll">
+      <PackagePath>Plugin.Maui.Audio.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DLIT\.nuget\packages\microsoft.graphics.win2d\1.0.4\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>
@@ -702,6 +708,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\Resources\Raw\DownloadOK.wav">
+      <PackagePath>DownloadOK.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\Resources\Raw\Error.wav">
+      <PackagePath>Error.wav</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>

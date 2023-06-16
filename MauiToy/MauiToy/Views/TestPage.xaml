@@ -7,9 +7,6 @@
     <VerticalStackLayout>
         <controls:TabView>
             <controls:TabItem />
-            <controls:TabItem />
-            <controls:TabItem />
-            <controls:TabItem />
         </controls:TabView>
     </VerticalStackLayout>
 </ContentPage>

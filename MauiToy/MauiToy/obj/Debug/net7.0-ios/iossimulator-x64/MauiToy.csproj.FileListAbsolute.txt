@@ -267,3 +267,5 @@ D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-ios\iossimulat
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-ios\iossimulator-x64\MauiToy.pdb
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-ios\iossimulator-x64\MauiToy.genruntimeconfig.cache
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-ios\iossimulator-x64\ref\MauiToy.dll
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\bin\Debug\net7.0-ios\iossimulator-x64\CommunityToolkit.Maui.MediaElement.dll
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\bin\Debug\net7.0-ios\iossimulator-x64\Plugin.Maui.Audio.dll

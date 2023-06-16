@@ -4,6 +4,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:controls="clr-namespace:MauiToy.Controls"
              xmlns:libControls="clr-namespace:MauiToy.Controls.Libraries"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              Title="LoginPage"
              Shell.FlyoutBehavior="Disabled">
 
@@ -50,7 +51,11 @@
             </Grid>
         </Frame>
 
-        <controls:TabView />
+        <toolkit:MediaElement x:Name="mediaElement"
+                              HeightRequest="300"
+                              ShouldAutoPlay="False"
+                              Source="embed://Error.wav"
+                              WidthRequest="400" />
 
         <!--<libControls:DataGrid x:Name="dataGrid"
                               HeaderHeight="30"

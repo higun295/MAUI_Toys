@@ -1,3 +1,4 @@
+using CommunityToolkit.Maui.Views;
 using MauiToy.Models;
 using System.Collections.ObjectModel;
 
@@ -67,5 +68,6 @@ public partial class LoginPage : ContentPage
 
     private void btn_Apply_Clicked(object sender, EventArgs e)
     {
+        mediaElement.Play();
     }
 }
