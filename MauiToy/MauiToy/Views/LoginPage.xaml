@@ -51,12 +51,6 @@
             </Grid>
         </Frame>
 
-        <toolkit:MediaElement x:Name="mediaElement"
-                              HeightRequest="300"
-                              ShouldAutoPlay="False"
-                              Source="embed://Error.wav"
-                              WidthRequest="400" />
-
         <!--<libControls:DataGrid x:Name="dataGrid"
                               HeaderHeight="30"
                               ItemsSource="{Binding TestSource, Mode=TwoWay}"

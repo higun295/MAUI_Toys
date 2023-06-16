@@ -1,5 +1,6 @@
 using CommunityToolkit.Maui.Views;
 using MauiToy.Models;
+using Plugin.Maui.Audio;
 using System.Collections.ObjectModel;
 
 namespace MauiToy.Views;
@@ -66,8 +67,9 @@ public partial class LoginPage : ContentPage
         TestSource.RemoveAt(currentIndex);
     }
 
-    private void btn_Apply_Clicked(object sender, EventArgs e)
+    private async void btn_Apply_Clicked(object sender, EventArgs e)
     {
-        mediaElement.Play();
+        var audioPlayer = AudioManager.Current.CreatePlayer(await FileSystem.OpenAppPackageFileAsync("Error.wav"));
+        audioPlayer.Play();
     }
 }
