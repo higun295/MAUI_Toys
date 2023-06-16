@@ -39,12 +39,19 @@ public partial class LoginPage : ContentPage
 
     private async void btn_Login_Clicked(object sender, EventArgs e)
     {
+        await PlaySound();
         await Shell.Current.GoToAsync($"//{nameof(MainPage)}");
     }
 
     private void Button_Clicked_3(object sender, EventArgs e)
     {
         App.ExecuteExitProcess(0);
+    }
+
+    private async Task PlaySound()
+    {
+        var audioPlayer = AudioManager.Current.CreatePlayer(await FileSystem.OpenAppPackageFileAsync("Error.wav"));
+        audioPlayer.Play();
     }
 
 
@@ -69,7 +76,6 @@ public partial class LoginPage : ContentPage
 
     private async void btn_Apply_Clicked(object sender, EventArgs e)
     {
-        var audioPlayer = AudioManager.Current.CreatePlayer(await FileSystem.OpenAppPackageFileAsync("Error.wav"));
-        audioPlayer.Play();
+
     }
 }
