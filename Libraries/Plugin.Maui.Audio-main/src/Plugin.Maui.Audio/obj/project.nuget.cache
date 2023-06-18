@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A7SgOelybcRtoc6nbBnhUtN6+WPLErjb/8lzUGRRnZVT6DvaSZ3NKqyUGqJxlCsD+EqK9GbT7g3OJtGkwFXb1Q==",
+  "dgSpecHash": "CrpFZkMyzmS32g3U37X2p1ndOX+2ZbHx1heDdeYB3d9zWqGjfJlb+NelgJuEBrpPmH10DZxpDrTkxa/LZ4c6FA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DLIT\\Downloads\\Plugin.Maui.Audio-main\\src\\Plugin.Maui.Audio\\Plugin.Maui.Audio.csproj",
+  "projectFilePath": "D:\\01_Projects\\SELF_PROJECT\\MAUI\\Libraries\\Plugin.Maui.Audio-main\\src\\Plugin.Maui.Audio\\Plugin.Maui.Audio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DLIT\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.build.tasks.git\\1.0.0\\microsoft.build.tasks.git.1.0.0.nupkg.sha512",

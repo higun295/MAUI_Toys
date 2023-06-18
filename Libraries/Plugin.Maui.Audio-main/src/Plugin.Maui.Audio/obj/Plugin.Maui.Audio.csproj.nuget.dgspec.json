@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DLIT\\Downloads\\Plugin.Maui.Audio-main\\src\\Plugin.Maui.Audio\\Plugin.Maui.Audio.csproj": {}
+    "D:\\01_Projects\\SELF_PROJECT\\MAUI\\Libraries\\Plugin.Maui.Audio-main\\src\\Plugin.Maui.Audio\\Plugin.Maui.Audio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DLIT\\Downloads\\Plugin.Maui.Audio-main\\src\\Plugin.Maui.Audio\\Plugin.Maui.Audio.csproj": {
+    "D:\\01_Projects\\SELF_PROJECT\\MAUI\\Libraries\\Plugin.Maui.Audio-main\\src\\Plugin.Maui.Audio\\Plugin.Maui.Audio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DLIT\\Downloads\\Plugin.Maui.Audio-main\\src\\Plugin.Maui.Audio\\Plugin.Maui.Audio.csproj",
+        "projectUniqueName": "D:\\01_Projects\\SELF_PROJECT\\MAUI\\Libraries\\Plugin.Maui.Audio-main\\src\\Plugin.Maui.Audio\\Plugin.Maui.Audio.csproj",
         "projectName": "Plugin.Maui.Audio",
-        "projectPath": "C:\\Users\\DLIT\\Downloads\\Plugin.Maui.Audio-main\\src\\Plugin.Maui.Audio\\Plugin.Maui.Audio.csproj",
+        "projectPath": "D:\\01_Projects\\SELF_PROJECT\\MAUI\\Libraries\\Plugin.Maui.Audio-main\\src\\Plugin.Maui.Audio\\Plugin.Maui.Audio.csproj",
         "packagesPath": "C:\\Users\\DLIT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DLIT\\Downloads\\Plugin.Maui.Audio-main\\src\\Plugin.Maui.Audio\\obj\\",
+        "outputPath": "D:\\01_Projects\\SELF_PROJECT\\MAUI\\Libraries\\Plugin.Maui.Audio-main\\src\\Plugin.Maui.Audio\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
