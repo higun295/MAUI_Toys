@@ -17,5 +17,5 @@
 
 
 
-- Class에 ContentProperty라는 Attribute를 명시적으로 지정하니까 하위에 여러 개의 Control을 포함하는 부모 Control이 되었음
+- Class에 ContentProperty라는 Attribute를 명시적으로 지정하니까 하위에 여러 개의 Control을 포함하는 부모 Control이 되었음(Mark-Up Extension)
 - 
