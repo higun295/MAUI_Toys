@@ -12,3 +12,10 @@
 	- 여러가지 View의 형식이 사용됨
 2. TabHostView(View를 전환하는 화면이 있는 공간)
 3. BottomTabItem
+
+
+
+
+
+- Class에 ContentProperty라는 Attribute를 명시적으로 지정하니까 하위에 여러 개의 Control을 포함하는 부모 Control이 되었음
+- 
