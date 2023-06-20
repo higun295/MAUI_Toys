@@ -1,5 +1,11 @@
 ﻿# 개발 순서
 
+0. 각 모양의 탭 구성
+	- TabHost가 각 TabItem들을 품는다.
+	- MaterialUnderlinedTabItem
+	- SegmentedTabItem
+	- UnderliendTabItem
+
 1. ViewSwitcher(실제 View가 나타나는 공간)
 	- DelayedView
 	- LazyView
