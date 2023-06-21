@@ -67,11 +67,7 @@
                             Radius="20"
                             Offset="0,10" />
                 </Border.Shadow>
-                <Grid BackgroundColor="{StaticResource Gray950}" RowDefinitions="50,50,60">
-                    <Label Grid.Row="0"
-                           Style="{StaticResource LabelHeader}"
-                           Text="MATERIAL TABS" />
-
+                <Grid BackgroundColor="{StaticResource Gray950}" RowDefinitions="50,60">
                     <tabs:TabHostView x:Name="TabHost"
                                       Grid.Row="1"
                                       Margin="0"
@@ -97,7 +93,7 @@
                     </tabs:TabHostView>
 
                     <tabs:ViewSwitcher x:Name="Switcher"
-                                       Grid.Row="2"
+                                       Grid.Row="0"
                                        Margin="16,0"
                                        VerticalOptions="Center"
                                        Animate="False"

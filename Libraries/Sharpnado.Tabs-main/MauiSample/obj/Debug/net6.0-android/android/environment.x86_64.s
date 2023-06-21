@@ -3830,7 +3830,7 @@ application_config:
 
 	.type	.L.autostr.8, @object
 .L.autostr.8:
-	.asciz	"6330cb0a-9222-4efe-8ecd-2a4dc8da0db4"
+	.asciz	"20d81e40-a23a-46fe-9d0e-047d9d5f1994"
 	.size	.L.autostr.8, 37
 
 	.type	.L.autostr.9, @object

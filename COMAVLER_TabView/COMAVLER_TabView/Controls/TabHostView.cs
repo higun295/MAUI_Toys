@@ -1,4 +1,3 @@
-using Google.Android.Material.Tabs;
 using System.Collections.ObjectModel;
 
 namespace COMAVLER_TabView.Controls;
@@ -19,6 +18,7 @@ public class TabHostView : ContentView
         get => (ObservableCollection<TabItem>)GetValue(TabsProperty);
         set => SetValue(TabsProperty, value);
     }
+
 
     public TabHostView()
     {
