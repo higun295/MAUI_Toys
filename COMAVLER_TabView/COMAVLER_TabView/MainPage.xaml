@@ -5,7 +5,9 @@
              xmlns:tabs="clr-namespace:COMAVLER_TabView.Controls">
 
     <ScrollView>
-        <tabs:TabHostView />
+        <tabs:TabHostView >
+            
+        </tabs:TabHostView>
 
     </ScrollView>
 

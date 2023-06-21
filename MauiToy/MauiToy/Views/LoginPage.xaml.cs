@@ -50,7 +50,7 @@ public partial class LoginPage : ContentPage
 
     private async Task PlaySound()
     {
-        var audioPlayer = AudioManager.Current.CreatePlayer(await FileSystem.OpenAppPackageFileAsync("Error.wav"));
+        var audioPlayer = AudioManager.Current.CreatePlayer(await FileSystem.OpenAppPackageFileAsync("DownloadOK.wav"));
         audioPlayer.Play();
     }
 
