@@ -6,10 +6,10 @@
 
     <ScrollView>
         <tabs:TabHostView>
-            <tabs:TabTextItem Label="Test1" />
-            <tabs:TabTextItem Label="Test2" />
-            <tabs:TabTextItem Label="Test3" />
-            <tabs:TabTextItem Label="Test4" />
+            <tabs:TabTextItem />
+            <tabs:TabTextItem />
+            <tabs:TabTextItem />
+            <tabs:TabTextItem />
         </tabs:TabHostView>
 
     </ScrollView>
