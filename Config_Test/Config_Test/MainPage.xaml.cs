@@ -1,48 +1,42 @@
-﻿namespace CONFIG_TEST;
+﻿using System.Text.Json;
+
+namespace CONFIG_TEST;
 
 public partial class MainPage : ContentPage
 {
-    int count = 0;
-
     public MainPage()
     {
         InitializeComponent();
-
-        var test2 = FileSystem.Current.AppDataDirectory;
-        var test4 = FileSystem.Current.CacheDirectory;
-
-        var test3 = Directory.GetFiles(test2);
-        var test5 = Directory.GetFiles(test4);
-
-        //var test = FileSystem.OpenAppPackageFileAsync("Assets/envSettings.json");
-
-        //var context = Android.App.Application.Context;
-        //using (var assetManager = context.Assets)
-        //{
-        //    using (var stream = assetManager.Open("envSettings.json"))
-        //    {
-
-        //    }
-        //}
-
-        //var test2 = Path.Combine(new[] { test, "Resources", "Assets" });
-
-        //if (Directory.Exists(test2))
-        //{
-
-        //}
     }
 
-    private void OnCounterClicked(object sender, EventArgs e)
+    private async void OnCounterClicked(object sender, EventArgs e)
     {
-        count++;
+        await LoadMauiAsset();
+    }
 
-        if (count == 1)
-            CounterBtn.Text = $"Clicked {count} time";
-        else
-            CounterBtn.Text = $"Clicked {count} times";
+    private async Task LoadMauiAsset()
+    {
+        using var stream = await FileSystem.OpenAppPackageFileAsync("envSettings.json");
+        using var reader = new StreamReader(stream);
 
-        SemanticScreenReader.Announce(CounterBtn.Text);
+        var test = await reader.ReadToEndAsync();
+        testLabel.Text = test;
+
+        Setting settings = JsonSerializer.Deserialize<Setting>(test);
+
+        t1.Text = settings.KEY1;
+        t2.Text = settings.KEY2;
+    }
+
+    private void Button_Clicked(object sender, EventArgs e)
+    {
+
     }
 }
 
+
+public class Setting
+{
+    public string KEY1 { get; set; }
+    public string KEY2 { get; set; }
+}
