@@ -423,7 +423,6 @@ D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\androi
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\Xamarin.Kotlin.StdLib.Jdk8.dll
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\Xamarin.KotlinX.Coroutines.Android.dll
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\Xamarin.KotlinX.Coroutines.Core.Jvm.dll
-D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\typemaps.x86_64.ll
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\AndroidManifest.xml
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\AndroidManifest.xml
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\__environment__.txt
@@ -432,7 +431,6 @@ D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\androi
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\bin\mono.android.jar
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\static.flag
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\buildid.txt
-D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\environment.x86_64.ll
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\src\androidx\activity\ktx\R.java
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\src\androidx\activity\R.java
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\src\androidx\annotation\experimental\R.java
@@ -912,12 +910,6 @@ D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\androi
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\src\mono\MonoPackageManager_Resources.java
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\bin\packaged_resources
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\src\com\companyname\mauitoy\R.java
-D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\compressed_assemblies.x86_64.ll
-D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\typemaps.x86_64.o
-D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\environment.x86_64.o
-D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\compressed_assemblies.x86_64.o
-D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\jni_remap.x86_64.o
-D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\app_shared_libraries\x86_64\libxamarin-app.so
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\bin\classes.dex
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\bin\classes2.dex
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\stamp\_CleanIntermediateIfNeeded.stamp
@@ -1057,3 +1049,16 @@ D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\androi
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\System.Runtime.Extensions.dll
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\System.Runtime.Serialization.Formatters.dll
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\System.Xml.dll
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\typemaps.x86_64.ll
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\environment.x86_64.ll
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\compressed_assemblies.x86_64.ll
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\typemaps.x86_64.o
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\environment.x86_64.o
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\compressed_assemblies.x86_64.o
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\jni_remap.x86_64.o
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\app_shared_libraries\x86_64\libxamarin-app.so
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\Microsoft.Extensions.Configuration.Json.dll
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\Microsoft.Extensions.FileProviders.Physical.dll
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\Microsoft.Extensions.FileSystemGlobbing.dll

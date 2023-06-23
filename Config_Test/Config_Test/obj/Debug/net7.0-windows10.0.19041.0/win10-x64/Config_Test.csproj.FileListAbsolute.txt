@@ -1,0 +1,12 @@
+D:\01_Projects\SELF_PROJECT\MAUI\Config_Test\Config_Test\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Config_Test.csproj.AssemblyReference.cache
+D:\01_Projects\SELF_PROJECT\MAUI\Config_Test\Config_Test\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
+D:\01_Projects\SELF_PROJECT\MAUI\Config_Test\Config_Test\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauifont.inputs
+D:\01_Projects\SELF_PROJECT\MAUI\Config_Test\Config_Test\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
+D:\01_Projects\SELF_PROJECT\MAUI\Config_Test\Config_Test\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
+D:\01_Projects\SELF_PROJECT\MAUI\Config_Test\Config_Test\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
+D:\01_Projects\SELF_PROJECT\MAUI\Config_Test\Config_Test\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
+D:\01_Projects\SELF_PROJECT\MAUI\Config_Test\Config_Test\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+D:\01_Projects\SELF_PROJECT\MAUI\Config_Test\Config_Test\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+D:\01_Projects\SELF_PROJECT\MAUI\Config_Test\Config_Test\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+D:\01_Projects\SELF_PROJECT\MAUI\Config_Test\Config_Test\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+D:\01_Projects\SELF_PROJECT\MAUI\Config_Test\Config_Test\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Config_Test.GeneratedMSBuildEditorConfig.editorconfig

@@ -259,3 +259,8 @@ D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-maccatalyst\ma
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref\MauiToy.dll
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Maui.MediaElement.dll
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Plugin.Maui.Audio.dll
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.Json.dll
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.FileProviders.Physical.dll
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.FileSystemGlobbing.dll

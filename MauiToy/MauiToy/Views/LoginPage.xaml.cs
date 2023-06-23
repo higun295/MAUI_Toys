@@ -1,5 +1,5 @@
-using CommunityToolkit.Maui.Views;
 using MauiToy.Models;
+using Microsoft.Extensions.Configuration;
 using Plugin.Maui.Audio;
 using System.Collections.ObjectModel;
 
