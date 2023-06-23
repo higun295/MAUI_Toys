@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Config_Test")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("CONFIG_TEST")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Config_Test")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Config_Test")]
+[assembly: System.Reflection.AssemblyProductAttribute("CONFIG_TEST")]
+[assembly: System.Reflection.AssemblyTitleAttribute("CONFIG_TEST")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("MacCatalyst16.1")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("MacCatalyst13.1")]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kM3InQpI1yKaQ9Ru/4d6HYGkgESQ6sld0E3LCmeCEGaC6oCz/FnLsySwixOW+ZBT+GT0Cfg7RNXdrJ+Ge247xA==",
+  "dgSpecHash": "oUfq+7GXc5Er9/oT8q1+JdjqUbYtfnNSGMM+aMobq4C/EQVq57r24e1JVDg4qu7QL0zoHQfgZwxNyFjjTl9oJA==",
   "success": true,
-  "projectFilePath": "D:\\01_Projects\\SELF_PROJECT\\MAUI\\Config_Test\\Config_Test\\Config_Test.csproj",
+  "projectFilePath": "D:\\01_Projects\\SELF_PROJECT\\MAUI\\CONFIG_TEST\\CONFIG_TEST\\CONFIG_TEST.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DLIT\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace Config_Test;
+namespace CONFIG_TEST;
 
 [Application]
 public class MainApplication : MauiApplication

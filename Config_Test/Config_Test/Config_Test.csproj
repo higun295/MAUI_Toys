@@ -6,17 +6,17 @@
 		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
 		<!-- <TargetFrameworks>$(TargetFrameworks);net7.0-tizen</TargetFrameworks> -->
 		<OutputType>Exe</OutputType>
-		<RootNamespace>Config_Test</RootNamespace>
+		<RootNamespace>CONFIG_TEST</RootNamespace>
 		<UseMaui>true</UseMaui>
 		<SingleProject>true</SingleProject>
 		<ImplicitUsings>enable</ImplicitUsings>
 
 		<!-- Display name -->
-		<ApplicationTitle>Config_Test</ApplicationTitle>
+		<ApplicationTitle>CONFIG_TEST</ApplicationTitle>
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.config_test</ApplicationId>
-		<ApplicationIdGuid>c75fe835-8177-446f-ba68-eccc14a438f0</ApplicationIdGuid>
+		<ApplicationIdGuid>33d3b23e-8a86-4ed2-8340-7156f3a2b6c7</ApplicationIdGuid>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
@@ -49,15 +49,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Remove="MainPage.xaml" />
+	  <None Remove="Resources\Assets\envSettings.json" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Raw\envSettings.json" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <EmbeddedResource Include="MainPage.xaml">
+	  <EmbeddedResource Include="Resources\Assets\envSettings.json">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </EmbeddedResource>
 	</ItemGroup>

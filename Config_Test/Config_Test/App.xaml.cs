@@ -1,4 +1,4 @@
-﻿namespace Config_Test;
+﻿namespace CONFIG_TEST;
 
 public partial class App : Application
 {

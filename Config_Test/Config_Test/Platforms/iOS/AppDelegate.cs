@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace Config_Test;
+namespace CONFIG_TEST;
 
 [Register("AppDelegate")]
 public class AppDelegate : MauiUIApplicationDelegate

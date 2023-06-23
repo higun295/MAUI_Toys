@@ -24021,11 +24021,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\01_Projects\\SELF_PROJECT\\MAUI\\Config_Test\\Config_Test\\Config_Test.csproj",
-      "projectName": "Config_Test",
-      "projectPath": "D:\\01_Projects\\SELF_PROJECT\\MAUI\\Config_Test\\Config_Test\\Config_Test.csproj",
+      "projectUniqueName": "D:\\01_Projects\\SELF_PROJECT\\MAUI\\CONFIG_TEST\\CONFIG_TEST\\CONFIG_TEST.csproj",
+      "projectName": "CONFIG_TEST",
+      "projectPath": "D:\\01_Projects\\SELF_PROJECT\\MAUI\\CONFIG_TEST\\CONFIG_TEST\\CONFIG_TEST.csproj",
       "packagesPath": "C:\\Users\\DLIT\\.nuget\\packages\\",
-      "outputPath": "D:\\01_Projects\\SELF_PROJECT\\MAUI\\Config_Test\\Config_Test\\obj\\",
+      "outputPath": "D:\\01_Projects\\SELF_PROJECT\\MAUI\\CONFIG_TEST\\CONFIG_TEST\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

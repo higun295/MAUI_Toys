@@ -11,16 +11,16 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PackageName", "c75fe835-8177-446f-ba68-eccc14a438f0")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PackageName", "33d3b23e-8a86-4ed2-8340-7156f3a2b6c7")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PublisherName", "User Name")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Name", "Config_Test")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Name", "CONFIG_TEST")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Version", "1.0.0.1")]
-[assembly: System.Reflection.AssemblyCompanyAttribute("Config_Test")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("CONFIG_TEST")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Config_Test")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Config_Test")]
+[assembly: System.Reflection.AssemblyProductAttribute("CONFIG_TEST")]
+[assembly: System.Reflection.AssemblyTitleAttribute("CONFIG_TEST")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows10.0.19041.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows10.0.17763.0")]

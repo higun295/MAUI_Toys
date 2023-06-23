@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace Config_Test;
+namespace CONFIG_TEST;
 
 public class Program
 {

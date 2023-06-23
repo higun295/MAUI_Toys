@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace Config_Test;
+namespace CONFIG_TEST;
 
 public static class MauiProgram
 {

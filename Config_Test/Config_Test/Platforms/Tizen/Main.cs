@@ -2,7 +2,7 @@ using System;
 using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 
-namespace Config_Test;
+namespace CONFIG_TEST;
 
 class Program : MauiApplication
 {

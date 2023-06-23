@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("Config_Test.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("CONFIG_TEST.Resource", IsApplication=true)]
 
-namespace Config_Test
+namespace CONFIG_TEST
 {
 	
 	
@@ -25,63 +25,63 @@ namespace Config_Test
 		
 		public static void UpdateIdValues()
 		{
-			global::Microsoft.Maui.Controls.Compatibility.Resource.Attribute.actionBarSize = global::Config_Test.Resource.Attribute.actionBarSize;
-			global::Microsoft.Maui.Controls.Compatibility.Resource.Attribute.collectionViewStyle = global::Config_Test.Resource.Attribute.collectionViewStyle;
-			global::Microsoft.Maui.Controls.Compatibility.Resource.Attribute.scrollViewStyle = global::Config_Test.Resource.Attribute.scrollViewStyle;
-			global::Microsoft.Maui.Controls.Compatibility.Resource.Drawable.abc_ic_clear_material = global::Config_Test.Resource.Drawable.abc_ic_clear_material;
-			global::Microsoft.Maui.Controls.Compatibility.Resource.Drawable.abc_ic_search_api_material = global::Config_Test.Resource.Drawable.abc_ic_search_api_material;
-			global::Microsoft.Maui.Controls.Compatibility.Resource.Style.collectionViewTheme = global::Config_Test.Resource.Style.collectionViewTheme;
-			global::Microsoft.Maui.Controls.Compatibility.Resource.Style.scrollViewTheme = global::Config_Test.Resource.Style.scrollViewTheme;
-			global::Microsoft.Maui.Controls.Resource.Animation.enterfromleft = global::Config_Test.Resource.Animation.enterfromleft;
-			global::Microsoft.Maui.Controls.Resource.Animation.enterfromright = global::Config_Test.Resource.Animation.enterfromright;
-			global::Microsoft.Maui.Controls.Resource.Animation.exittoleft = global::Config_Test.Resource.Animation.exittoleft;
-			global::Microsoft.Maui.Controls.Resource.Animation.exittoright = global::Config_Test.Resource.Animation.exittoright;
-			global::Microsoft.Maui.Controls.Resource.Attribute.actionBarSize = global::Config_Test.Resource.Attribute.actionBarSize;
-			global::Microsoft.Maui.Controls.Resource.Attribute.appBarLayoutStyle = global::Config_Test.Resource.Attribute.appBarLayoutStyle;
-			global::Microsoft.Maui.Controls.Resource.Attribute.bottomNavigationViewStyle = global::Config_Test.Resource.Attribute.bottomNavigationViewStyle;
-			global::Microsoft.Maui.Controls.Resource.Attribute.toolbarStyle = global::Config_Test.Resource.Attribute.toolbarStyle;
-			global::Microsoft.Maui.Controls.Resource.Drawable.abc_ic_clear_material = global::Config_Test.Resource.Drawable.abc_ic_clear_material;
-			global::Microsoft.Maui.Controls.Resource.Drawable.abc_ic_menu_overflow_material = global::Config_Test.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::Microsoft.Maui.Controls.Resource.Drawable.abc_ic_search_api_material = global::Config_Test.Resource.Drawable.abc_ic_search_api_material;
-			global::Microsoft.Maui.Controls.Resource.Id.navigationlayout_bottomtabs = global::Config_Test.Resource.Id.navigationlayout_bottomtabs;
-			global::Microsoft.Maui.Controls.Resource.Id.navigationlayout_content = global::Config_Test.Resource.Id.navigationlayout_content;
-			global::Microsoft.Maui.Controls.Resource.Id.navigationlayout_toptabs = global::Config_Test.Resource.Id.navigationlayout_toptabs;
-			global::Microsoft.Maui.Controls.Resource.Id.shellcontent_appbar = global::Config_Test.Resource.Id.shellcontent_appbar;
-			global::Microsoft.Maui.Controls.Resource.Id.flyoutcontent_appbar = global::Config_Test.Resource.Id.flyoutcontent_appbar;
-			global::Microsoft.Maui.Controls.Resource.Layout.fragment_backstack = global::Config_Test.Resource.Layout.fragment_backstack;
-			global::Microsoft.Maui.Controls.Resource.Layout.flyoutcontent = global::Config_Test.Resource.Layout.flyoutcontent;
-			global::Microsoft.Maui.Controls.Resource.Layout.shellcontent = global::Config_Test.Resource.Layout.shellcontent;
-			global::Microsoft.Maui.Controls.Resource.Dimension.design_bottom_navigation_height = global::Config_Test.Resource.Dimension.design_bottom_navigation_height;
-			global::Microsoft.Maui.Controls.Resource.Style.ThemeOverlay_AppCompat_Light = global::Config_Test.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Microsoft.Maui.Controls.Resource.Styleable.Toolbar = global::Config_Test.Resource.Styleable.Toolbar;
-			global::Microsoft.Maui.Controls.Resource.Styleable.Toolbar_titleTextColor = global::Config_Test.Resource.Styleable.Toolbar_titleTextColor;
-			global::Microsoft.Maui.Controls.Resource.String.nav_app_bar_navigate_up_description = global::Config_Test.Resource.String.nav_app_bar_navigate_up_description;
-			global::Microsoft.Maui.Controls.Resource.String.nav_app_bar_open_drawer_description = global::Config_Test.Resource.String.nav_app_bar_open_drawer_description;
-			global::Microsoft.Maui.Controls.Resource.String.overflow_tab_title = global::Config_Test.Resource.String.overflow_tab_title;
-			global::Microsoft.Maui.Resource.Attribute.actionBarSize = global::Config_Test.Resource.Attribute.actionBarSize;
-			global::Microsoft.Maui.Resource.Attribute.colorSwitchThumbNormal = global::Config_Test.Resource.Attribute.colorSwitchThumbNormal;
-			global::Microsoft.Maui.Resource.Attribute.maui_splash = global::Config_Test.Resource.Attribute.maui_splash;
-			global::Microsoft.Maui.Resource.Attribute.scrollViewStyle = global::Config_Test.Resource.Attribute.scrollViewStyle;
-			global::Microsoft.Maui.Resource.Animation.nav_default_enter_anim = global::Config_Test.Resource.Animation.nav_default_enter_anim;
-			global::Microsoft.Maui.Resource.Animation.nav_default_exit_anim = global::Config_Test.Resource.Animation.nav_default_exit_anim;
-			global::Microsoft.Maui.Resource.Animation.nav_default_pop_enter_anim = global::Config_Test.Resource.Animation.nav_default_pop_enter_anim;
-			global::Microsoft.Maui.Resource.Animation.nav_default_pop_exit_anim = global::Config_Test.Resource.Animation.nav_default_pop_exit_anim;
-			global::Microsoft.Maui.Resource.Drawable.abc_ic_clear_material = global::Config_Test.Resource.Drawable.abc_ic_clear_material;
-			global::Microsoft.Maui.Resource.Id.navigation_layout = global::Config_Test.Resource.Id.navigation_layout;
-			global::Microsoft.Maui.Resource.Id.navigationlayout_appbar = global::Config_Test.Resource.Id.navigationlayout_appbar;
-			global::Microsoft.Maui.Resource.Id.navigationlayout_bottomtabs = global::Config_Test.Resource.Id.navigationlayout_bottomtabs;
-			global::Microsoft.Maui.Resource.Id.navigationlayout_content = global::Config_Test.Resource.Id.navigationlayout_content;
-			global::Microsoft.Maui.Resource.Id.navigationlayout_toptabs = global::Config_Test.Resource.Id.navigationlayout_toptabs;
-			global::Microsoft.Maui.Resource.Id.nav_host = global::Config_Test.Resource.Id.nav_host;
-			global::Microsoft.Maui.Resource.Id.nav_host_fragment_container = global::Config_Test.Resource.Id.nav_host_fragment_container;
-			global::Microsoft.Maui.Resource.Id.search_button = global::Config_Test.Resource.Id.search_button;
-			global::Microsoft.Maui.Resource.Id.search_close_btn = global::Config_Test.Resource.Id.search_close_btn;
-			global::Microsoft.Maui.Resource.Layout.drawer_layout = global::Config_Test.Resource.Layout.drawer_layout;
-			global::Microsoft.Maui.Resource.Layout.navigationlayout = global::Config_Test.Resource.Layout.navigationlayout;
-			global::Microsoft.Maui.Resource.Layout.fragment_backstack = global::Config_Test.Resource.Layout.fragment_backstack;
-			global::Microsoft.Maui.Resource.Style.Maui_MainTheme_NoActionBar = global::Config_Test.Resource.Style.Maui_MainTheme_NoActionBar;
-			global::Microsoft.Maui.Resource.Style.ThemeOverlay_AppCompat_Light = global::Config_Test.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Microsoft.Maui.Resource.Style.scrollViewTheme = global::Config_Test.Resource.Style.scrollViewTheme;
+			global::Microsoft.Maui.Controls.Compatibility.Resource.Attribute.actionBarSize = global::CONFIG_TEST.Resource.Attribute.actionBarSize;
+			global::Microsoft.Maui.Controls.Compatibility.Resource.Attribute.collectionViewStyle = global::CONFIG_TEST.Resource.Attribute.collectionViewStyle;
+			global::Microsoft.Maui.Controls.Compatibility.Resource.Attribute.scrollViewStyle = global::CONFIG_TEST.Resource.Attribute.scrollViewStyle;
+			global::Microsoft.Maui.Controls.Compatibility.Resource.Drawable.abc_ic_clear_material = global::CONFIG_TEST.Resource.Drawable.abc_ic_clear_material;
+			global::Microsoft.Maui.Controls.Compatibility.Resource.Drawable.abc_ic_search_api_material = global::CONFIG_TEST.Resource.Drawable.abc_ic_search_api_material;
+			global::Microsoft.Maui.Controls.Compatibility.Resource.Style.collectionViewTheme = global::CONFIG_TEST.Resource.Style.collectionViewTheme;
+			global::Microsoft.Maui.Controls.Compatibility.Resource.Style.scrollViewTheme = global::CONFIG_TEST.Resource.Style.scrollViewTheme;
+			global::Microsoft.Maui.Controls.Resource.Animation.enterfromleft = global::CONFIG_TEST.Resource.Animation.enterfromleft;
+			global::Microsoft.Maui.Controls.Resource.Animation.enterfromright = global::CONFIG_TEST.Resource.Animation.enterfromright;
+			global::Microsoft.Maui.Controls.Resource.Animation.exittoleft = global::CONFIG_TEST.Resource.Animation.exittoleft;
+			global::Microsoft.Maui.Controls.Resource.Animation.exittoright = global::CONFIG_TEST.Resource.Animation.exittoright;
+			global::Microsoft.Maui.Controls.Resource.Attribute.actionBarSize = global::CONFIG_TEST.Resource.Attribute.actionBarSize;
+			global::Microsoft.Maui.Controls.Resource.Attribute.appBarLayoutStyle = global::CONFIG_TEST.Resource.Attribute.appBarLayoutStyle;
+			global::Microsoft.Maui.Controls.Resource.Attribute.bottomNavigationViewStyle = global::CONFIG_TEST.Resource.Attribute.bottomNavigationViewStyle;
+			global::Microsoft.Maui.Controls.Resource.Attribute.toolbarStyle = global::CONFIG_TEST.Resource.Attribute.toolbarStyle;
+			global::Microsoft.Maui.Controls.Resource.Drawable.abc_ic_clear_material = global::CONFIG_TEST.Resource.Drawable.abc_ic_clear_material;
+			global::Microsoft.Maui.Controls.Resource.Drawable.abc_ic_menu_overflow_material = global::CONFIG_TEST.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Microsoft.Maui.Controls.Resource.Drawable.abc_ic_search_api_material = global::CONFIG_TEST.Resource.Drawable.abc_ic_search_api_material;
+			global::Microsoft.Maui.Controls.Resource.Id.navigationlayout_bottomtabs = global::CONFIG_TEST.Resource.Id.navigationlayout_bottomtabs;
+			global::Microsoft.Maui.Controls.Resource.Id.navigationlayout_content = global::CONFIG_TEST.Resource.Id.navigationlayout_content;
+			global::Microsoft.Maui.Controls.Resource.Id.navigationlayout_toptabs = global::CONFIG_TEST.Resource.Id.navigationlayout_toptabs;
+			global::Microsoft.Maui.Controls.Resource.Id.shellcontent_appbar = global::CONFIG_TEST.Resource.Id.shellcontent_appbar;
+			global::Microsoft.Maui.Controls.Resource.Id.flyoutcontent_appbar = global::CONFIG_TEST.Resource.Id.flyoutcontent_appbar;
+			global::Microsoft.Maui.Controls.Resource.Layout.fragment_backstack = global::CONFIG_TEST.Resource.Layout.fragment_backstack;
+			global::Microsoft.Maui.Controls.Resource.Layout.flyoutcontent = global::CONFIG_TEST.Resource.Layout.flyoutcontent;
+			global::Microsoft.Maui.Controls.Resource.Layout.shellcontent = global::CONFIG_TEST.Resource.Layout.shellcontent;
+			global::Microsoft.Maui.Controls.Resource.Dimension.design_bottom_navigation_height = global::CONFIG_TEST.Resource.Dimension.design_bottom_navigation_height;
+			global::Microsoft.Maui.Controls.Resource.Style.ThemeOverlay_AppCompat_Light = global::CONFIG_TEST.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Microsoft.Maui.Controls.Resource.Styleable.Toolbar = global::CONFIG_TEST.Resource.Styleable.Toolbar;
+			global::Microsoft.Maui.Controls.Resource.Styleable.Toolbar_titleTextColor = global::CONFIG_TEST.Resource.Styleable.Toolbar_titleTextColor;
+			global::Microsoft.Maui.Controls.Resource.String.nav_app_bar_navigate_up_description = global::CONFIG_TEST.Resource.String.nav_app_bar_navigate_up_description;
+			global::Microsoft.Maui.Controls.Resource.String.nav_app_bar_open_drawer_description = global::CONFIG_TEST.Resource.String.nav_app_bar_open_drawer_description;
+			global::Microsoft.Maui.Controls.Resource.String.overflow_tab_title = global::CONFIG_TEST.Resource.String.overflow_tab_title;
+			global::Microsoft.Maui.Resource.Attribute.actionBarSize = global::CONFIG_TEST.Resource.Attribute.actionBarSize;
+			global::Microsoft.Maui.Resource.Attribute.colorSwitchThumbNormal = global::CONFIG_TEST.Resource.Attribute.colorSwitchThumbNormal;
+			global::Microsoft.Maui.Resource.Attribute.maui_splash = global::CONFIG_TEST.Resource.Attribute.maui_splash;
+			global::Microsoft.Maui.Resource.Attribute.scrollViewStyle = global::CONFIG_TEST.Resource.Attribute.scrollViewStyle;
+			global::Microsoft.Maui.Resource.Animation.nav_default_enter_anim = global::CONFIG_TEST.Resource.Animation.nav_default_enter_anim;
+			global::Microsoft.Maui.Resource.Animation.nav_default_exit_anim = global::CONFIG_TEST.Resource.Animation.nav_default_exit_anim;
+			global::Microsoft.Maui.Resource.Animation.nav_default_pop_enter_anim = global::CONFIG_TEST.Resource.Animation.nav_default_pop_enter_anim;
+			global::Microsoft.Maui.Resource.Animation.nav_default_pop_exit_anim = global::CONFIG_TEST.Resource.Animation.nav_default_pop_exit_anim;
+			global::Microsoft.Maui.Resource.Drawable.abc_ic_clear_material = global::CONFIG_TEST.Resource.Drawable.abc_ic_clear_material;
+			global::Microsoft.Maui.Resource.Id.navigation_layout = global::CONFIG_TEST.Resource.Id.navigation_layout;
+			global::Microsoft.Maui.Resource.Id.navigationlayout_appbar = global::CONFIG_TEST.Resource.Id.navigationlayout_appbar;
+			global::Microsoft.Maui.Resource.Id.navigationlayout_bottomtabs = global::CONFIG_TEST.Resource.Id.navigationlayout_bottomtabs;
+			global::Microsoft.Maui.Resource.Id.navigationlayout_content = global::CONFIG_TEST.Resource.Id.navigationlayout_content;
+			global::Microsoft.Maui.Resource.Id.navigationlayout_toptabs = global::CONFIG_TEST.Resource.Id.navigationlayout_toptabs;
+			global::Microsoft.Maui.Resource.Id.nav_host = global::CONFIG_TEST.Resource.Id.nav_host;
+			global::Microsoft.Maui.Resource.Id.nav_host_fragment_container = global::CONFIG_TEST.Resource.Id.nav_host_fragment_container;
+			global::Microsoft.Maui.Resource.Id.search_button = global::CONFIG_TEST.Resource.Id.search_button;
+			global::Microsoft.Maui.Resource.Id.search_close_btn = global::CONFIG_TEST.Resource.Id.search_close_btn;
+			global::Microsoft.Maui.Resource.Layout.drawer_layout = global::CONFIG_TEST.Resource.Layout.drawer_layout;
+			global::Microsoft.Maui.Resource.Layout.navigationlayout = global::CONFIG_TEST.Resource.Layout.navigationlayout;
+			global::Microsoft.Maui.Resource.Layout.fragment_backstack = global::CONFIG_TEST.Resource.Layout.fragment_backstack;
+			global::Microsoft.Maui.Resource.Style.Maui_MainTheme_NoActionBar = global::CONFIG_TEST.Resource.Style.Maui_MainTheme_NoActionBar;
+			global::Microsoft.Maui.Resource.Style.ThemeOverlay_AppCompat_Light = global::CONFIG_TEST.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Microsoft.Maui.Resource.Style.scrollViewTheme = global::CONFIG_TEST.Resource.Style.scrollViewTheme;
 		}
 		
 		public partial class Animation
