@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView x:Class="MauiToy.Controls.SwitchWithText"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Grid>
+        <Switch x:Name="mySwitch"
+                HorizontalOptions="Center" />
+        <Label x:Name="myLabel"
+               FontAttributes="Bold"
+               FontSize="11"
+               HorizontalOptions="Center"
+               Text="ON"
+               VerticalOptions="Center">
+            <Label.Triggers>
+                <DataTrigger Binding="{Binding Source={x:Reference mySwitch}, Path=IsToggled}"
+                             TargetType="Label"
+                             Value="False">
+                    <Setter Property="Text" Value="OFF" />
+                </DataTrigger>
+            </Label.Triggers>
+        </Label>
+    </Grid>
+</ContentView>

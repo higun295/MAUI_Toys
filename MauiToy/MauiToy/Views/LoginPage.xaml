@@ -51,6 +51,8 @@
             </Grid>
         </Frame>
 
+        <controls:SwitchWithText />
+
         <!--<libControls:DataGrid x:Name="dataGrid"
                               HeaderHeight="30"
                               ItemsSource="{Binding TestSource, Mode=TwoWay}"

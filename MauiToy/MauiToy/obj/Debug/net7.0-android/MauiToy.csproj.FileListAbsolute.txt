@@ -1049,6 +1049,11 @@ D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\androi
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\System.Runtime.Extensions.dll
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\System.Runtime.Serialization.Formatters.dll
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\System.Xml.dll
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\Microsoft.Extensions.Configuration.Json.dll
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\Microsoft.Extensions.FileProviders.Physical.dll
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\Microsoft.Extensions.FileSystemGlobbing.dll
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\typemaps.x86_64.ll
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\environment.x86_64.ll
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\compressed_assemblies.x86_64.ll
@@ -1057,8 +1062,3 @@ D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\androi
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\compressed_assemblies.x86_64.o
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\jni_remap.x86_64.o
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\app_shared_libraries\x86_64\libxamarin-app.so
-D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\Microsoft.Extensions.Configuration.FileExtensions.dll
-D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\Microsoft.Extensions.Configuration.Json.dll
-D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\Microsoft.Extensions.FileProviders.Abstractions.dll
-D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\Microsoft.Extensions.FileProviders.Physical.dll
-D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\Microsoft.Extensions.FileSystemGlobbing.dll

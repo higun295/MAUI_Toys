@@ -65,6 +65,9 @@
 	  <MauiXaml Update="Controls\Libraries\DataGrid.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Controls\SwitchWithText.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Controls\TabView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

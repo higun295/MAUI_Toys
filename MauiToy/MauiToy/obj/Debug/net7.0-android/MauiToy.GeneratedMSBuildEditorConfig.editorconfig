@@ -32,6 +32,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MauiToy.Controls.Libraries
 build_metadata.AdditionalFiles.TargetPath = Controls\Libraries\DataGrid.xaml
 build_metadata.AdditionalFiles.RelativePath = Controls\Libraries\DataGrid.xaml
 
+[D:/01_Projects/SELF_PROJECT/MAUI/MauiToy/MauiToy/Controls/SwitchWithText.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiToy.Controls.SwitchWithText.xaml
+build_metadata.AdditionalFiles.TargetPath = Controls\SwitchWithText.xaml
+build_metadata.AdditionalFiles.RelativePath = Controls\SwitchWithText.xaml
+
 [D:/01_Projects/SELF_PROJECT/MAUI/MauiToy/MauiToy/Controls/TabView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiToy.Controls.TabView.xaml

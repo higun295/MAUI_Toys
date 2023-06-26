@@ -1,4 +1,5 @@
-﻿using System.Text.Json;
+﻿using System.ComponentModel;
+using System.Text.Json;
 
 namespace CONFIG_TEST;
 
@@ -9,9 +10,31 @@ public partial class MainPage : ContentPage
         InitializeComponent();
     }
 
+    int count = 0;
     private async void OnCounterClicked(object sender, EventArgs e)
     {
-        await LoadMauiAsset();
+        //await LoadMauiAsset();
+        count++;
+        if (File.Exists(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "envSettings.json")))
+        {
+            var envSettingsPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "envSettings.json");
+            var envSettingsContent = @"{ ""KEY1"": ""value1"" }";
+            File.WriteAllText(envSettingsPath, envSettingsContent);
+
+            var existingEnvSettingsContent = File.ReadAllText(envSettingsPath);
+            // Modify the content as needed
+            var modifiedEnvSettingsContent = existingEnvSettingsContent.Replace("value1", "new value1");
+            File.WriteAllText(envSettingsPath, modifiedEnvSettingsContent);
+
+            Setting settings = JsonSerializer.Deserialize<Setting>(modifiedEnvSettingsContent);
+            t1.Text = settings.KEY1;
+        }
+        else
+        {
+            File.Create(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "envSettings.json"));
+        }
+
+
     }
 
     private async Task LoadMauiAsset()
