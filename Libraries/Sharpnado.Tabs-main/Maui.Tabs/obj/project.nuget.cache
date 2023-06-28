@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "A0wWWLyQsBht9fmPmSG18zWEIHF5nsLs2dviDSYgt1KVBns5cllU7AEaZMfIq9gO8giJ0YEMKbgsYJWUZ+LZ0w==",
+  "dgSpecHash": "qlQ8Y1pexDw+d1JWfe7rxnKt4E2V+CfZI+/3Glv+1BKEy7j3cpmXoJ+B6hbjA3yCiWVoT6d8cvH/R4fz4rwW4g==",
   "success": true,
   "projectFilePath": "D:\\01_Projects\\SELF_PROJECT\\MAUI\\Libraries\\Sharpnado.Tabs-main\\Maui.Tabs\\Maui.Tabs.csproj",
   "expectedPackageFiles": [
@@ -120,11 +120,11 @@
     "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.android.ref.31\\32.0.485\\microsoft.android.ref.31.32.0.485.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.maui.essentials.ref.ios\\6.0.553\\microsoft.maui.essentials.ref.ios.6.0.553.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.maui.core.ref.ios\\6.0.553\\microsoft.maui.core.ref.ios.6.0.553.nupkg.sha512",
-    "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.ios.ref\\16.4.47\\microsoft.ios.ref.16.4.47.nupkg.sha512",
+    "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.ios.ref\\16.4.60\\microsoft.ios.ref.16.4.60.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.maui.controls.ref.ios\\6.0.553\\microsoft.maui.controls.ref.ios.6.0.553.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.maui.controls.ref.maccatalyst\\6.0.553\\microsoft.maui.controls.ref.maccatalyst.6.0.553.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.maui.essentials.ref.maccatalyst\\6.0.553\\microsoft.maui.essentials.ref.maccatalyst.6.0.553.nupkg.sha512",
-    "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.maccatalyst.ref\\16.4.47\\microsoft.maccatalyst.ref.16.4.47.nupkg.sha512",
+    "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.maccatalyst.ref\\16.4.60\\microsoft.maccatalyst.ref.16.4.60.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.maui.core.ref.maccatalyst\\6.0.553\\microsoft.maui.core.ref.maccatalyst.6.0.553.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.maui.essentials.ref.win\\6.0.553\\microsoft.maui.essentials.ref.win.6.0.553.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.28\\microsoft.windows.sdk.net.ref.10.0.19041.28.nupkg.sha512",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sHsWYYJS2I8G8hrrtCPrde5C+UQxYILB3n17DDU7YoDg8PN5gSfNTOYiv7pqnByyfC06IeHT20TfN1hucssTHA==",
+  "dgSpecHash": "XGbbfZKehndjk3DULNs+wQQwyRqbXIFbnGY1ENWuQIrLYUwyN62Fw5sWoAHqYoFmf7fUwpUrWSX/zwZvr+prmA==",
   "success": true,
   "projectFilePath": "D:\\01_Projects\\SELF_PROJECT\\MAUI\\MauiToy\\MauiToy\\MauiToy.csproj",
   "expectedPackageFiles": [
@@ -128,9 +128,9 @@
     "C:\\Users\\DLIT\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.6.4.1\\xamarin.kotlinx.coroutines.android.1.6.4.1.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.6.4.1\\xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.28\\microsoft.windows.sdk.net.ref.10.0.19041.28.nupkg.sha512",
-    "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.5\\microsoft.aspnetcore.app.runtime.win-x64.7.0.5.nupkg.sha512",
-    "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.5\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.5.nupkg.sha512",
-    "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.5\\microsoft.netcore.app.runtime.win-x64.7.0.5.nupkg.sha512"
+    "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.7\\microsoft.aspnetcore.app.runtime.win-x64.7.0.7.nupkg.sha512",
+    "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.7\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.7.nupkg.sha512",
+    "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.7\\microsoft.netcore.app.runtime.win-x64.7.0.7.nupkg.sha512"
   ],
   "logs": []
 }
