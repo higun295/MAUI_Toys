@@ -36,7 +36,8 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/P7ftnwgXCiEGHtl2KCshaOj6ItD1dsc8ExihRW8XURTgqVZJAF/api": {}
         },
         "frameworks": {
           "net7.0-android33.0": {
@@ -66,6 +67,10 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
             "CommunityToolkit.Maui.MediaElement": {
               "target": "Package",
               "version": "[2.0.0, )"
@@ -196,6 +201,10 @@
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
             "CommunityToolkit.Maui.MediaElement": {
               "target": "Package",
               "version": "[2.0.0, )"
@@ -271,6 +280,10 @@
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
             "CommunityToolkit.Maui.MediaElement": {
               "target": "Package",
               "version": "[2.0.0, )"
@@ -347,6 +360,10 @@
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
             "CommunityToolkit.Maui.MediaElement": {
               "target": "Package",
               "version": "[2.0.0, )"

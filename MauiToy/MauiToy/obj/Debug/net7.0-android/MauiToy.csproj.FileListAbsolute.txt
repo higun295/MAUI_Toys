@@ -1062,3 +1062,10 @@ D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\androi
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\compressed_assemblies.x86_64.o
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\jni_remap.x86_64.o
 D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\app_shared_libraries\x86_64\libxamarin-app.so
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\CommunityToolkit.Maui.Core.dll
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\assets\CommunityToolkit.Maui.dll
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\src\crc64159f3caeb1269279\MauiDrawingView.java
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\src\crc64159f3caeb1269279\MauiPopup.java
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\src\crc64159f3caeb1269279\MauiSemanticOrderView.java
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\src\crc648fc34c62be8fbbff\Snackbar_SnackbarCallback.java
+D:\01_Projects\SELF_PROJECT\MAUI\MauiToy\MauiToy\obj\Debug\net7.0-android\android\src\crc64d6358e7bf64fbac4\SpeechToTextImplementation_SpeechRecognitionListener.java

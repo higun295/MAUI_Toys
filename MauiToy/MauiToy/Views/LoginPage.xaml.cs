@@ -1,5 +1,7 @@
+using CommunityToolkit.Maui.Alerts;
 using MauiToy.Models;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Maui.Animations;
 using Plugin.Maui.Audio;
 using System.Collections.ObjectModel;
 
@@ -30,11 +32,6 @@ public partial class LoginPage : ContentPage
     private async void btn_Setting_Clicked(object sender, EventArgs e)
     {
         await Shell.Current.GoToAsync($"//{nameof(LoginPage)}/{nameof(AdministrationPage)}");
-    }
-
-    private void Button_Clicked_1(object sender, EventArgs e)
-    {
-
     }
 
     private async void btn_Login_Clicked(object sender, EventArgs e)
@@ -76,6 +73,7 @@ public partial class LoginPage : ContentPage
 
     private async void btn_Apply_Clicked(object sender, EventArgs e)
     {
-
+        var toast = Toast.Make("적용완료");
+        await toast.Show();
     }
 }

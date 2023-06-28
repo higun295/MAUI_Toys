@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "XGbbfZKehndjk3DULNs+wQQwyRqbXIFbnGY1ENWuQIrLYUwyN62Fw5sWoAHqYoFmf7fUwpUrWSX/zwZvr+prmA==",
+  "dgSpecHash": "ZyVlCijagKD4lY1Fma3a86femuCFsn3QRSb99zhHfsbtdSW7JuXTl5KEC9WhHgiBVu8DHhDiWINOIPuDOU5amA==",
   "success": true,
   "projectFilePath": "D:\\01_Projects\\SELF_PROJECT\\MAUI\\MauiToy\\MauiToy\\MauiToy.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DLIT\\.nuget\\packages\\communitytoolkit.maui\\5.2.0\\communitytoolkit.maui.5.2.0.nupkg.sha512",
+    "C:\\Users\\DLIT\\.nuget\\packages\\communitytoolkit.maui.core\\5.2.0\\communitytoolkit.maui.core.5.2.0.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\communitytoolkit.maui.mediaelement\\2.0.0\\communitytoolkit.maui.mediaelement.2.0.0.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
@@ -27,6 +29,7 @@
     "C:\\Users\\DLIT\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\plugin.maui.audio\\1.0.0\\plugin.maui.audio.1.0.0.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\system.runtime.interopservices.nfloat.internal\\6.0.1\\system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
+    "C:\\Users\\DLIT\\.nuget\\packages\\system.speech\\7.0.0\\system.speech.7.0.0.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\xam.plugins.android.exoplayer\\2.18.10\\xam.plugins.android.exoplayer.2.18.10.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\xam.plugins.android.exoplayer.common\\2.18.10\\xam.plugins.android.exoplayer.common.2.18.10.nupkg.sha512",
     "C:\\Users\\DLIT\\.nuget\\packages\\xam.plugins.android.exoplayer.core\\2.18.10\\xam.plugins.android.exoplayer.core.2.18.10.nupkg.sha512",
