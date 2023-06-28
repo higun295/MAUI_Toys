@@ -1,1 +1,0 @@
-D:\01_Projects\SELF_PROJECT\MAUI\Maui_Blazor\Maui_Blazor\Maui_Blazor.csproj;x64
