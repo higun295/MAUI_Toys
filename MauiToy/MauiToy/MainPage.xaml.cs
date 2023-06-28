@@ -1,12 +1,24 @@
-﻿using MauiToy.Views;
+﻿using CommunityToolkit.Maui.Alerts;
+using MauiToy.Views;
 
 namespace MauiToy;
 
+[QueryProperty(nameof(TokenSource), "Token")]
 public partial class MainPage : ContentPage
 {
     public MainPage()
     {
         InitializeComponent();
+    }
+
+    public CancellationTokenSource TokenSource
+    {
+        set { SetValue(value); }
+    }
+
+    public void SetValue(CancellationTokenSource source)
+    {
+        source.Cancel();
     }
 
     private async void Button_Clicked(object sender, EventArgs e)

@@ -1,4 +1,5 @@
 using CommunityToolkit.Maui.Alerts;
+using CommunityToolkit.Maui.Core;
 using MauiToy.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Maui.Animations;
@@ -10,6 +11,8 @@ namespace MauiToy.Views;
 public partial class LoginPage : ContentPage
 {
     public List<Test> TestList = new List<Test>();
+    private CancellationTokenSource ctSource = new CancellationTokenSource();
+
     public ObservableCollection<Test> TestSource { get; set; } = new ObservableCollection<Test>();
 
     public LoginPage()
@@ -37,7 +40,10 @@ public partial class LoginPage : ContentPage
     private async void btn_Login_Clicked(object sender, EventArgs e)
     {
         await PlaySound();
-        await Shell.Current.GoToAsync($"//{nameof(MainPage)}");
+
+        var toast = Toast.Make("TEST");
+        await toast.Show(ctSource.Token);
+        await Shell.Current.GoToAsync($"//{nameof(MainPage)}", new Dictionary<string, object> { { "Token", ctSource } });
     }
 
     private void Button_Clicked_3(object sender, EventArgs e)
@@ -73,7 +79,5 @@ public partial class LoginPage : ContentPage
 
     private async void btn_Apply_Clicked(object sender, EventArgs e)
     {
-        var toast = Toast.Make("적용완료");
-        await toast.Show();
     }
 }
