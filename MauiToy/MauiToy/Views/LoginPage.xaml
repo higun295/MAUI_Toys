@@ -3,57 +3,65 @@
              xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:controls="clr-namespace:MauiToy.Controls"
+             xmlns:dxg="clr-namespace:DevExpress.Maui.DataGrid;assembly=DevExpress.Maui.DataGrid"
              xmlns:libControls="clr-namespace:MauiToy.Controls.Libraries"
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              Title="LoginPage"
              Shell.FlyoutBehavior="Disabled">
+    <ContentPage.Content>
+        <VerticalStackLayout Margin="10"
+                             Spacing="10">
+            <dxg:DataGridView>
+                <dxg:DataGridView.Columns>
+                    <dxg:TextColumn />
+                    <dxg:TextColumn />
+                </dxg:DataGridView.Columns>
+            </dxg:DataGridView>
 
-    <VerticalStackLayout Margin="10"
-                         Spacing="10">
-        <Label FontSize="25"
-               HorizontalOptions="Center"
-               Text="수출 포장 관리"
-               VerticalOptions="Center" />
-        <Label FontSize="15"
-               HorizontalOptions="Center"
-               Text="작업자 로그인 정보를 입력하세요."
-               VerticalOptions="Center" />
+            <Label FontSize="25"
+                   HorizontalOptions="Center"
+                   Text="수출 포장 관리"
+                   VerticalOptions="Center" />
+            <Label FontSize="15"
+                   HorizontalOptions="Center"
+                   Text="작업자 로그인 정보를 입력하세요."
+                   VerticalOptions="Center" />
 
-        <Frame Margin="10"
-               Padding="30,10,30,10"
-               BackgroundColor="LightBlue">
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                </Grid.RowDefinitions>
+            <Frame Margin="10"
+                   Padding="30,10,30,10"
+                   BackgroundColor="LightBlue">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
 
-                <Label Grid.Row="0"
-                       Grid.Column="0"
-                       Margin="0,0,10,0"
-                       HorizontalOptions="End"
-                       Text="User ID : "
-                       VerticalOptions="Center" />
-                <Label Grid.Row="1"
-                       Grid.Column="0"
-                       Margin="0,0,10,0"
-                       HorizontalOptions="End"
-                       Text="Password : "
-                       VerticalOptions="Center" />
-                <Entry Grid.Row="0"
-                       Grid.Column="1" />
-                <Entry Grid.Row="1"
-                       Grid.Column="1" />
-            </Grid>
-        </Frame>
+                    <Label Grid.Row="0"
+                           Grid.Column="0"
+                           Margin="0,0,10,0"
+                           HorizontalOptions="End"
+                           Text="User ID : "
+                           VerticalOptions="Center" />
+                    <Label Grid.Row="1"
+                           Grid.Column="0"
+                           Margin="0,0,10,0"
+                           HorizontalOptions="End"
+                           Text="Password : "
+                           VerticalOptions="Center" />
+                    <Entry Grid.Row="0"
+                           Grid.Column="1" />
+                    <Entry Grid.Row="1"
+                           Grid.Column="1" />
+                </Grid>
+            </Frame>
 
-        <controls:SwitchWithText />
+            <controls:SwitchWithText />
 
-        <!--<libControls:DataGrid x:Name="dataGrid"
+            <!--<libControls:DataGrid x:Name="dataGrid"
                               HeaderHeight="30"
                               ItemsSource="{Binding TestSource, Mode=TwoWay}"
                               RowHeight="30"
@@ -81,19 +89,21 @@
             </libControls:DataGrid.RowsBackgroundColorPalette>
         </libControls:DataGrid>-->
 
-        <Button Clicked="btn_Login_Clicked"
-                Text="로그인" />
-        <Button Clicked="btn_Setting_Clicked"
-                Text="설정" />
-        <Button Clicked="Button_Clicked_3"
-                Text="종료" />
-        <HorizontalStackLayout>
-            <Button Clicked="btn_AddRow_Clicked"
-                    Text="행 추가" />
-            <Button Clicked="btn_RemoveRow_Clicked"
-                    Text="행 삭제" />
-            <Button Clicked="btn_Apply_Clicked"
-                    Text="적용" />
-        </HorizontalStackLayout>
-    </VerticalStackLayout>
+            <Button Clicked="btn_Login_Clicked"
+                    Text="로그인" />
+            <Button Clicked="btn_Setting_Clicked"
+                    Text="설정" />
+            <Button Clicked="Button_Clicked_3"
+                    Text="종료" />
+            <HorizontalStackLayout>
+                <Button Clicked="btn_AddRow_Clicked"
+                        Text="행 추가" />
+                <Button Clicked="btn_RemoveRow_Clicked"
+                        Text="행 삭제" />
+                <Button Clicked="btn_Apply_Clicked"
+                        Text="적용" />
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ContentPage.Content>
+
 </ContentPage>

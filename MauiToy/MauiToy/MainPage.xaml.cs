@@ -18,7 +18,8 @@ public partial class MainPage : ContentPage
 
     public void SetValue(CancellationTokenSource source)
     {
-        source.Cancel();
+        source.TryReset();
+        //source.Cancel();
     }
 
     private async void Button_Clicked(object sender, EventArgs e)

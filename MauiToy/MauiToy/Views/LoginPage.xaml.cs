@@ -11,7 +11,6 @@ namespace MauiToy.Views;
 public partial class LoginPage : ContentPage
 {
     public List<Test> TestList = new List<Test>();
-    private CancellationTokenSource ctSource = new CancellationTokenSource();
 
     public ObservableCollection<Test> TestSource { get; set; } = new ObservableCollection<Test>();
 
@@ -42,6 +41,8 @@ public partial class LoginPage : ContentPage
         await PlaySound();
 
         var toast = Toast.Make("TEST");
+
+        CancellationTokenSource ctSource = new CancellationTokenSource();
         await toast.Show(ctSource.Token);
         await Shell.Current.GoToAsync($"//{nameof(MainPage)}", new Dictionary<string, object> { { "Token", ctSource } });
     }
