@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<!--  xmlns:dxg="clr-namespace:DevExpress.Maui.DataGrid;assembly=DevExpress.Maui.DataGrid"  -->
 <ContentPage x:Class="MauiToy.Views.LoginPage"
              xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:controls="clr-namespace:MauiToy.Controls"
-             xmlns:dxg="clr-namespace:DevExpress.Maui.DataGrid;assembly=DevExpress.Maui.DataGrid"
              xmlns:libControls="clr-namespace:MauiToy.Controls.Libraries"
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              Title="LoginPage"
@@ -11,12 +11,12 @@
     <ContentPage.Content>
         <VerticalStackLayout Margin="10"
                              Spacing="10">
-            <dxg:DataGridView>
+            <!--<dxg:DataGridView>
                 <dxg:DataGridView.Columns>
                     <dxg:TextColumn />
                     <dxg:TextColumn />
                 </dxg:DataGridView.Columns>
-            </dxg:DataGridView>
+            </dxg:DataGridView>-->
 
             <Label FontSize="25"
                    HorizontalOptions="Center"
